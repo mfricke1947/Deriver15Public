@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 13.
+    &lt;/h2&gt;
+    &lt;p&gt;
+      Show the Interpretation Panel
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1(of 1)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Which of the following formulas are true in the Interpretation? (You can 
+      check by selecting them and clicking &lt;em&gt;True?&lt;/em&gt;)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Rab
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Rab&amp;#8743;Rba
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Raa
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Raa&amp;#8744;Saa
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) (&amp;#8707;y)Ray
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) (&amp;#8707;y)Ryb
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) (&amp;#8707;y)Ryy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) (&amp;#8707;y)Syy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      i) (&amp;#8704;y)Syy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      j) (&amp;#8704;x)(&amp;#8707;y)Rxy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      k) (&amp;#8704;x)(Fx&amp;#8835;(&amp;#8707;y)Rxy)
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TProperty" id="TProperty0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TProperty0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TProperty0"/>
+      <char>G</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>281</int>
+    </void>
+    <void property="YCoord">
+     <int>145</int>
+    </void>
+    <void id="Rectangle0" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>118</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>84</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle0"/>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>0</int>
+      <int>0</int>
+      <int>255</int>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TProperty" id="TProperty1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TProperty1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TProperty1"/>
+      <char>F</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>81</int>
+    </void>
+    <void property="YCoord">
+     <int>140</int>
+    </void>
+    <void id="Rectangle1" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>103</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>67</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle1"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual0"/>
+      <char>b</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>315</int>
+    </void>
+    <void property="YCoord">
+     <int>174</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual1"/>
+      <char>a</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>107</int>
+    </void>
+    <void property="YCoord">
+     <int>169</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard" id="TInterpretationBoard0">
+    <void id="Rectangle2" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle2"/>
+       <int>150</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle2"/>
+       <int>70</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle2"/>
+    </void>
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TRelation" id="TRelation0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TRelation0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TRelation0"/>
+      <char>R</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>115</int>
+    </void>
+    <void property="YCoord">
+     <int>176</int>
+    </void>
+    <void id="Rectangle3" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle3"/>
+       <int>207</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle3"/>
+       <int>8</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle3"/>
+    </void>
+    <void id="Point0" property="from">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point0"/>
+       <int>115</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point0"/>
+       <int>176</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point1" property="to">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point1"/>
+       <int>322</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point1"/>
+       <int>184</int>
+      </void>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TRelation" id="TRelation1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TRelation1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TRelation1"/>
+      <char>R</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>116</int>
+    </void>
+    <void property="YCoord">
+     <int>172</int>
+    </void>
+    <void id="Rectangle4" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle4"/>
+       <int>209</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle4"/>
+       <int>4</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle4"/>
+    </void>
+    <void id="Point2" property="from">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point2"/>
+       <int>325</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point2"/>
+       <int>176</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point3" property="to">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point3"/>
+       <int>116</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point3"/>
+       <int>172</int>
+      </void>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TRelation" id="TRelation2">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TRelation2"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TRelation2"/>
+      <char>S</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>112</int>
+    </void>
+    <void property="YCoord">
+     <int>175</int>
+    </void>
+    <void id="Rectangle5" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle5"/>
+       <int>2</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle5"/>
+       <int>1</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle5"/>
+    </void>
+    <void id="Point4" property="from">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point4"/>
+       <int>112</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point4"/>
+       <int>175</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point5" property="to">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point5"/>
+       <int>114</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point5"/>
+       <int>176</int>
+      </void>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TRelation" id="TRelation3">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TRelation3"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TRelation3"/>
+      <char>S</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>322</int>
+    </void>
+    <void property="YCoord">
+     <int>178</int>
+    </void>
+    <void id="Rectangle6" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle6"/>
+       <int>2</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle6"/>
+       <int>3</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle6"/>
+    </void>
+    <void id="Point6" property="from">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point6"/>
+       <int>324</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point6"/>
+       <int>181</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point7" property="to">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point7"/>
+       <int>322</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point7"/>
+       <int>178</int>
+      </void>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

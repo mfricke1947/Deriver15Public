@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      5/15/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercises to accompany Tutorial 2
+    &lt;/h2&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 7):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The program knows of three atomic propositions and has itself adopted 
+      the following conventions regarding them
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        The proposition &apos;We run a war&apos; is symbolized by &apos;W&apos;.&lt;br&gt;The 
+        proposition &apos;We reduce unemployment&apos; is symbolized by &apos;U&apos;.&lt;br&gt;The 
+        proposition &apos;We increase health costs&apos; is symbolized by &apos;H.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &apos;To symbols&apos;. What it will do is to perform one step of the 
+      symbolization process and symbolize part of the proposition and leave 
+      the rest in English. Keep selecting the inner remaining English section 
+      and clicking &apos;To symbols&apos;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting the entire formula 
+      and clicking &apos;To English&apos;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Again, the program will do one step of the translation process. Keep 
+      selecting inner symbolic subformulas and clicking &apos;To English&apos; until the 
+      entire formula is translated.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Keep in mind that when you are translating to symbols what you select 
+      must be in English, and that when you are translating to English what 
+      you select must be a symbolic formula.
+    &lt;/p&gt;
+    &lt;p&gt;
+      When you are half way through the translation process you will have 
+      something which is part in English and part in symbols-- be sure that 
+      what you select is entirely in English or entirely in symbols (or 
+      nothing will happen).
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) It is not the case that we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) It is not the case that we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) We run a war and we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) We run a war and we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) We run a war and it is not the case that we increase health costs.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) We run a war and it is not the case that we increase health costs.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      
+    &lt;/h3&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 7):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      In this exercise you must chose how you are going to symbolize the 
+      atomic propositions. The program knows of the three propositions above, 
+      but that is all. Tell the program how you are going to do it by selecting
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        remember proposition (&amp;lt;english in here&amp;gt;) &amp;lt;capital in here&amp;gt;
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and clicking &apos;Do command&apos;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Then ask the machine to translate back and forward for you.
+    &lt;/p&gt;
+    &lt;p&gt;
+      First tell of your conventions (and you can give several commands at 
+      once if you put them indivually in brackets and start with &apos;all&apos;)
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        all&lt;br&gt;(remember proposition (Capital punishment deters killers) 
+        capital-here)&lt;br&gt;(remember proposition (Capital punishment is 
+        justified) capital-here)&lt;br&gt;(remember proposition (Capital punishment 
+        is inhuman) capital-here)&lt;br&gt;(remember proposition (Capital punishment 
+        is cheap) capital-here)
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      then symbolize
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) Capital punishment deters killers and capital punishment is cheap.
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) Capital punishment deters killers and capital punishment is cheap.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) It is not the case that it is not the case that capital punishment 
+        is inhuman.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) It is not the case that it is not the case that capital punishment 
+        is inhuman.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) Capital punishment is inhuman and it is not the case that capital 
+        punishment is justified.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) Capital punishment is inhuman and it is not the case that capital 
+        punishment is justified.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      
+    &lt;/h3&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 7)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      What are the main connectives of the following formulas?
+    &lt;/p&gt;
+    &lt;p&gt;
+      (The answers are below).
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) (A&amp;#8743; (B&amp;#8743;C))
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) (~(A) &amp;#8743; B)
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) &amp;#8764;(A&amp;#8743;B)
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Answers
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) The main connective of (A&amp;#8743; (B&amp;#8743;C)) is the &apos;&amp;#8743;&apos; which occurs between A 
+        and (B&amp;#8743;C).
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) The main connective of (&amp;#8764;(A) &amp;#8743; B) is the &apos;&amp;#8743;&apos; which occurs between 
+        &amp;#8764;(A) and B.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) The main connective of &amp;#8764;(A&amp;#8743;B) is the &apos;&amp;#8764;&apos; which occurs at the 
+        beginning.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      
+    &lt;/h3&gt;
+    &lt;h3&gt;
+      Exercise 4 (of 7):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The program knows of three atomic propositions and has itself adopted 
+      the previously mentioned conventions regarding them.
+    &lt;/p&gt;
+    &lt;p&gt;
+      (*If you ever want to know what propositions the program knows, select
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        write propositions
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and click &apos;Do Command&apos;. *)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &apos;To symbols&apos;. What it will do is to perform one step of the 
+      symbolization process and symbolize part of the proposition and leave 
+      the rest in English. Keep selecting the inner remaining English section 
+      and clicking &apos;To symbols&apos;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting the entire formula 
+      and clicking &apos;To English&apos;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Again, the program will do one step of the translation process. Keep 
+      selecting inner symbolic subformulas and clicking &apos;To English&apos; until the 
+      entire formula is translated.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) We run a war or we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) We run a war or we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) If we reduce unemployment then we increase health costs.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) If we reduce unemployment then we increase health costs.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) We run a war if and only if it is not the case that we reduce 
+        unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) We run a war if and only if it is not the case that we reduce 
+        unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) If we run a war and we increase health costs then we reduce 
+        unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) If we run a war and we increase health costs then we reduce 
+        unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) If we run a war or we increase health costs then it is not the case 
+        that we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) If we run a war or we increase health costs then it is not the case 
+        that we reduce unemployment.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      
+    &lt;/h3&gt;
+    &lt;h3&gt;
+      Exercise 5 (of 7)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      What are the main connectives of the following formulas?
+    &lt;/p&gt;
+    &lt;p&gt;
+      (The answers are below).
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) (W&amp;#8835; (X&amp;#8801;Y))
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) (&amp;#8764;(X&amp;#8801;Y) &amp;#8744; (X&amp;#8801;Y))
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) &amp;#8764;(A&amp;#8744;&amp;#8764;(B))
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Answers
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) The main connective of (W&amp;#8835; (X&amp;#8801;Y)) is the &apos;&amp;#8835;&apos; which occurs between W 
+        and (X&amp;#8801;Y).
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) The main connective of (&amp;#8764;(X&amp;#8801;Y) &amp;#8744; (X&amp;#8801;Y)) is the &apos;&amp;#8744;&apos; which occurs 
+        between &amp;#8764;(X&amp;#8801;Y) and (X&amp;#8801;Y).
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) The main connective of &amp;#8764;(A&amp;#8744;&amp;#8764;(B)) is the &apos;&amp;#8764;&apos; which occurs at the 
+        beginning.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Exercise 6 (of 7):
+    &lt;/p&gt;
+    &lt;p&gt;
+      The program knows of three atomic propositions and has itself adopted 
+      the previously mentioned conventions regarding them.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize then translate back
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) Both we run a war and we increase health costs.
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) Both we run a war and we increase health costs.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) We increase health costs if we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) We increase health costs if we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) We increase health costs if either we reduce unemployment or we run 
+        a war.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) We increase health costs if either we reduce unemployment or we run 
+        a war.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) Neither we increase health costs nor we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) Neither we increase health costs nor we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) We increase health costs only if we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) We increase health costs only if we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        f) We increase health costs unless we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        f) We increase health costs unless we reduce unemployment.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Some further remarks on the more difficult cases.
+    &lt;/p&gt;
+    &lt;p&gt;
+      From the point of view of logic.....
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        &apos;Neither A nor B&apos; amounts to &apos;It is not the case that either A or B&apos;.
+      &lt;/p&gt;
+      &lt;p&gt;
+        &amp;#160;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &apos;A if B&apos; amounts to &apos;If B then A&apos; . For example, &apos;The bomb explodes if 
+        the red button is pushed&apos; amounts to &apos;If the red button is pushed the 
+        bomb explodes&apos;.
+      &lt;/p&gt;
+      &lt;p&gt;
+        &amp;#160;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &apos;A only if B&apos; amounts to &apos;If A then B&apos;. For example, &apos;Plants flourish 
+        only if there is sunlight&apos; amounts to &apos;If plants flourish there is 
+        sunlight&apos;.
+      &lt;/p&gt;
+      &lt;p&gt;
+        &amp;#160;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &apos;A unless B&apos; amounts to &apos;A or B&apos;. For example, &apos;Plants flourish unless 
+        there is no sunlight&apos; amounts to &apos;Plants flourish or there is no 
+        sunlight&apos;.
+      &lt;/p&gt;
+      &lt;p&gt;
+        &amp;#160;
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      A suggestion regarding how to solve translation problems: If you do not 
+      recognize the English as an example of a standard form, try to 
+      paraphrase it into a standard form. For example, &apos;Taxes are unpopular, 
+      but revenue is needed&apos; is not in a form that we have met, but 
+      paraphrasing it to &apos;Taxes are unpopular and revenue is needed&apos; takes it 
+      to a form that we know and which has the same logical structure as the 
+      original.
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 7 (of 7):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Symbolize each of the following, and for each one identify its main 
+      connective. None of these can be done by the program (with the program 
+      working at this level of analysis), but answers and paraphrases are 
+      given below:
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) Philosophy is hard but interesting.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) Philosophy isn&apos;t both hard and interesting.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) Although philosophy is hard, it is interesting.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) Not only is philosophy hard but so too is logic.
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) Logic is interesting, yet not hard.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Answers. Paraphrases
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) Philosophy is hard and philosophy is interesting.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) It is not the case that philosophy is hard and philosophy is 
+        interesting.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) Philosophy is hard and philosophy is interesting.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) Philosophy hard and logic is hard.
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) Logic is interesting and it is not the case that logic is hard.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    Let
+
+    &lt;blockquote&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;
+          &lt;br&gt;
+          H = philosophy is hard&lt;br&gt;I = philosophy is interesting&lt;br&gt;L = logic 
+          is hard&lt;br&gt;M = logic is interesting
+        &lt;/p&gt;
+        &lt;p&gt;
+          &amp;#160;
+        &lt;/p&gt;
+      &lt;/blockquote&gt;
+      &lt;p&gt;
+        a) H&amp;#8743;I and this has &apos;&amp;#8743;&apos; as its main connective.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) &amp;#8764;(H&amp;#8743;I) and this has &apos;&amp;#8764;&apos; as its main connective.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) H&amp;#8743;I and this has &apos;&amp;#8743;&apos; as its main connective.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) H&amp;#8743;L and this has &apos;&amp;#8743;&apos; as its main connective.
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) M&amp;#8743;&amp;#8764;L and this has &apos;&amp;#8743;&apos; as its main connective.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Notice here that we have started to leave out brackets (when there is no 
+      ambiguity).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>445</int>
+  </void>
+ </object>
+</java>

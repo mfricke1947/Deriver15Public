@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h2&gt;
+      Exercises to accompany Tutorial 9
+    &lt;/h2&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 4).
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Derive the following using Tactics. (Start the derivation, switch 
+      Tactics on, select the disjunt formula, and click &amp;#8744;E-- this will lay out 
+      the derivation for you.) Then repeat the derivations without using 
+      Tactics.&lt;br&gt;&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) F&amp;#8744;G,F&amp;#8835;H,G&amp;#8835;H&amp;#8756;H
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (F&amp;#8743;F)&amp;#8744;(G&amp;#8743;G),F&amp;#8835;H,G&amp;#8835;H&amp;#8756;H
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) F&amp;#8744;G &amp;#8756;G&amp;#8744;F
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) (F&amp;#8835;G)&amp;#8743;(H&amp;#8835;D), F&amp;#8744;H &amp;#8756; G&amp;#8744;D
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 4). (*slightly more difficult*)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Derive the following.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) F&amp;#8744;(G&amp;#8743;&amp;#8764;G)&amp;#8756; F
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) F&amp;#8744;G, G&amp;#8835;H &amp;#8756; &amp;#8764;F&amp;#8835;H
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8764;F&amp;#8743;&amp;#8764;G&amp;#8756; &amp;#8764;(F&amp;#8744;G)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      There are a number of important theorems which can be expressed as 
+      equivalences-- here we consider slightly weakened versions of them which 
+      are conditionals.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Derive
+    &lt;/p&gt;
+    &lt;p&gt;
+      De Morgan&apos;s Laws
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) &amp;#8756; (&amp;#8764;F&amp;#8743;&amp;#8764;G)&amp;#8835;&amp;#8764;(F&amp;#8744;G)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Distribution
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) &amp;#8756; (F&amp;#8743;(G&amp;#8744;H))&amp;#8835;((F&amp;#8743;G)&amp;#8744;(F&amp;#8743;H))
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) &amp;#8756; ((F&amp;#8744;G)&amp;#8743;(F&amp;#8744;H))&amp;#8835;(F&amp;#8744;(G&amp;#8743;H))
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) &amp;#8756; (F&amp;#8743;(G&amp;#8744;H))&amp;#8835;((F&amp;#8743;G)&amp;#8744;(F&amp;#8743;H))
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) &amp;#8756; ((F&amp;#8744;G)&amp;#8743;(F&amp;#8744;H))&amp;#8835;(F&amp;#8744;(G&amp;#8743;H))
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Implication
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      j) &amp;#8756; (&amp;#8764;F&amp;#8744;G)&amp;#8835;(F&amp;#8835;G)
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 4).
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Derive the following with or without Tactics. (Start the derivation, 
+      switch Tactics on, and click &amp;#8801;I --this will lay out the derivation for 
+      you.) Then do the derivations without using Tactics.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (F&amp;#8835;G)&amp;#8743;(G&amp;#8835;F) &amp;#8756; F&amp;#8801;G
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) &amp;#8756; (F&amp;#8743;F)&amp;#8801;F
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8756; (F&amp;#8744;F)&amp;#8801;F
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 4 (of 4).
+    &lt;/h3&gt;
+    &lt;p&gt;
+      There are a number of well-known theorems which express equivalences 
+      between formulas, derive them
+    &lt;/p&gt;
+    &lt;p&gt;
+      Association
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) &amp;#8756; F&amp;#8744;(G&amp;#8744;H)&amp;#8801;(F&amp;#8744;G)&amp;#8744;H
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) &amp;#8756; F&amp;#8743;(G&amp;#8743;H)&amp;#8801;(F&amp;#8743;G)&amp;#8743;H
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Commutation
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8756; F&amp;#8744;G&amp;#8801;G&amp;#8744;F
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) &amp;#8756; F&amp;#8743;G&amp;#8801;G&amp;#8743;F
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      De Morgan&apos;s Laws
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) &amp;#8756; &amp;#8764;(F&amp;#8743;G)&amp;#8801;&amp;#8764;F&amp;#8744;&amp;#8764;G
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) &amp;#8756; &amp;#8764;(F&amp;#8744;G)&amp;#8801;&amp;#8764;F&amp;#8743;&amp;#8764;G
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Distribution
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      g) &amp;#8756; F&amp;#8743;(G&amp;#8744;H)&amp;#8801;(F&amp;#8743;G)&amp;#8744;(F&amp;#8743;H)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) &amp;#8756; F&amp;#8744;(G&amp;#8743;H)&amp;#8801;(F&amp;#8744;G)&amp;#8743;(F&amp;#8744;H)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Double Negation
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      i) &amp;#8756; F&amp;#8801;&amp;#8764;&amp;#8764;F
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Equivalence
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      j) &amp;#8756; (F&amp;#8801;G)&amp;#8801;(F&amp;#8835;G)&amp;#8743;(G&amp;#8835;F)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      k) &amp;#8756; (F&amp;#8801;G)&amp;#8801;(F&amp;#8743;G)&amp;#8744;(&amp;#8764;F&amp;#8743;&amp;#8764;G)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Exportation
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      l) &amp;#8756; (F&amp;#8835;(G&amp;#8835;H))&amp;#8801;((F&amp;#8743;G)&amp;#8835;H)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Implication
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      m) &amp;#8756; F&amp;#8835;G&amp;#8801;&amp;#8764;F&amp;#8744;G
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Transposition
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      n) &amp;#8756; F&amp;#8835;G&amp;#8801;&amp;#8764;G&amp;#8835;&amp;#8764;F
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    &lt;hr style=&quot;width: 100%; height: 2px&quot;&gt;
+    
+
+    &lt;p&gt;
+      &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26">
+         <void index="0">
+          <boolean>true</boolean>
+         </void>
+         <void index="2">
+          <boolean>true</boolean>
+         </void>
+         <void index="3">
+          <boolean>true</boolean>
+         </void>
+        </array>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>445</int>
+  </void>
+  <void property="propLevel">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>

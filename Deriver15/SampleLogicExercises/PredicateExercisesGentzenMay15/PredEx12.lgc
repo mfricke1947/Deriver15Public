@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercises to accompany Tutorial 12
+    &lt;/h2&gt;
+    &lt;p&gt;
+      Thus far the program has presented its conventions for
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a = ARTHUR&lt;br&gt;b = BERYL&lt;br&gt;c = CHARLES&lt;br&gt;x = X&lt;br&gt;y = Y&lt;br&gt;z = Z&lt;br&gt;Sx 
+      = STUDIES&lt;br&gt;Tx = THINKS&lt;br&gt;Ax = ANGRY&lt;br&gt;Bx = BOLD&lt;br&gt;Cx = CHEERFUL&lt;br&gt;Nx 
+      = NINCOMPOOP&lt;br&gt;Px = PHILOSOPHER
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      but it also has conventions for transitive verbs, passive verbs, and 
+      binary adjectives. These are as follows
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      Axy = ANNOYS&lt;br&gt;Bxy = BRINGS&lt;br&gt;Dxy = DRIVEN BY&lt;br&gt;Exy = ENCOURAGED BY&lt;br&gt;Rxy 
+      = RUDER THAN&lt;br&gt;Sxy = SMARTER THAN
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      (you can also teach it transitive verbs, passive verbs,and binary 
+      adjectives by selecting one of
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      remember tverb (&amp;lt;english in here&amp;gt;) &amp;lt;capital in here&amp;gt;
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      remember pverb (&amp;lt;english in here&amp;gt;) &amp;lt;capital in here&amp;gt;
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      remember binadj (&amp;lt;english in here&amp;gt;) &amp;lt;capital in here&amp;gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and clicking &lt;em&gt;Do Command&lt;/em&gt;; you will not need to teach the program 
+      anything for these exercises.)&lt;br&gt;&lt;br&gt;
+    &lt;/p&gt;
+    Make sure &lt;em&gt;Predicate Level&lt;/em&gt; is selected in the &lt;em&gt;Semantics Menu&lt;/em&gt; 
+    (to give predicate level analysis).
+
+    &lt;h2&gt;
+      
+    &lt;/h2&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &lt;em&gt;To symbols&lt;/em&gt;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting each symbol and 
+      clicking &lt;em&gt;To English&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Arthur annoys Beryl.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Arthur annoys Beryl.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Beryl annoys Arthur.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Beryl annoys Arthur.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Arthur is encouraged by Beryl.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Arthur is encouraged by Beryl.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Arthur is not smarter than Beryl.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Arthur is not smarter than Beryl.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) Arthur annoys himself.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Arthur annoys himself.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      f) If Charles brings Arthur then Charles annoys Beryl.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) If Charles brings Arthur then Charles annoys Beryl.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &lt;em&gt;To symbols&lt;/em&gt;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting each symbol and 
+      clicking &lt;em&gt;To English&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Everything that Arthur is smarter than thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Everything that Arthur is smarter than thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Something that Arthur is ruder than is a cheerful nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Something that Arthur is ruder than is a cheerful nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Nothing that Charles annoys thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Nothing that Charles annoys thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Arthur is smarter than everything that Beryl is smarter than.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Arthur is smarter than everything that Beryl is smarter than.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) Charles is encouraged by something that Beryl is encouraged by.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Charles is encouraged by something that Beryl is encouraged by.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      f) Arthur is smarter than nothing that Beryl is encouraged by.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) Arthur is smarter than nothing that Beryl is encouraged by.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      g) Arthur is ruder than everything that studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) Arthur is ruder than everything that studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      h) Arthur annoys something that studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) Arthur annoys something that studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &lt;em&gt;To symbols&lt;/em&gt;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting each symbol and 
+      clicking &lt;em&gt;To English&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Everything is smarter than everything.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Everything is smarter than everything.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Everything is smarter than something.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Everything is smarter than something.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Something is smarter than everything.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Something is smarter than everything.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Everything is smarter than nothing.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Everything is smarter than nothing.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) Nothing is smarter than everything.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Nothing is smarter than everything.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      f) Something is smarter than something.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) Something is smarter than something.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      g) Something is smarter than nothing.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) Something is smarter than nothing.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      h) Nothing is smarter than something.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) Nothing is smarter than something.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      i) Nothing is smarter than nothing.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      i) Nothing is smarter than nothing.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 4 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &lt;em&gt;To symbols&lt;/em&gt;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting each symbol and 
+      clicking &lt;em&gt;To English&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Something is not a philosopher.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Something is not a philosopher.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Some cheerful philosopher is not a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Some cheerful philosopher is not a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Something is smarter than everything.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Something is smarter than everything.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Everything is smarter than something that studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Everything is smarter than something that studies.
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

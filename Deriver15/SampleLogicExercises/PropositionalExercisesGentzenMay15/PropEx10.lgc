@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.2_05" class="java.beans.XMLDecoder"> 
+ <int>1</int> 
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h2&gt;
+      Exercises to accompany Tutorial 10
+    &lt;/h2&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 1).
+    &lt;/h3&gt;
+    &lt;p&gt;
+      There are a number of well-known theorems which express equivalences 
+      between formulas. Experienced logicians know these off by heart. You 
+      have already derived many of them. Be sure you can derive the rest
+    &lt;/p&gt;
+    Absorption&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      1) &amp;#8756; (F&amp;#8744;(F&amp;#8743;G))&amp;#8801;F &lt;br&gt;2) &amp;#8756; (F&amp;#8743;(F&amp;#8744;G))&amp;#8801;F &lt;br&gt;
+3) &amp;#8756; (F&amp;#8835;(F&amp;#8835;G))&amp;#8801;(F&amp;#8835;G)
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Association&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      4) &amp;#8756; F&amp;#8744;(G&amp;#8744;H)&amp;#8801;(F&amp;#8744;G)&amp;#8744;H &lt;br&gt;5) &amp;#8756; 
+      F&amp;#8743;(G&amp;#8743;H)&amp;#8801;(F&amp;#8743;G)&amp;#8743;H
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Commutation&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      6) &amp;#8756; F&amp;#8744;G&amp;#8801;G&amp;#8744;F &lt;br&gt;7) &amp;#8756; F&amp;#8743;G&amp;#8801;G&amp;#8743;F &lt;br&gt;
+8) &amp;#8756; (F&amp;#8801;G)&amp;#8801;(G&amp;#8801;F) &lt;br&gt;9) &amp;#8756; F&amp;#8835;(G&amp;#8835;H)&amp;#8801;G&amp;#8835;(F&amp;#8835;H)
+
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Contraposition&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      10) &amp;#8756;(F&amp;#8835;G)&amp;#8801;(&amp;#8764;G&amp;#8835;&amp;#8764;F)
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    De Morgan&apos;s Laws&lt;br&gt;
+
+    &lt;blockquote&gt;
+      11) &amp;#8756; &amp;#8764;(F&amp;#8743;G)&amp;#8801;&amp;#8764;F&amp;#8744;&amp;#8764;G &lt;br&gt;12) &amp;#8756; 
+      &amp;#8764;(F&amp;#8744;G)&amp;#8801;&amp;#8764;F&amp;#8743;&amp;#8764;G
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Distribution&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      13) &amp;#8756; F&amp;#8743;(G&amp;#8744;H)&amp;#8801;(F&amp;#8743;G)&amp;#8744;(F&amp;#8743;H) &lt;br&gt;
+      14) &amp;#8756; F&amp;#8744;(G&amp;#8743;H)&amp;#8801;(F&amp;#8744;G)&amp;#8743;(F&amp;#8744;H)
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Double Negation&lt;br&gt;
+
+    &lt;blockquote&gt;
+      15) &amp;#8756; F&amp;#8801;&amp;#8764;&amp;#8764;F
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Equivalence&lt;br&gt;
+
+    &lt;blockquote&gt;
+      16) &amp;#8756; (F&amp;#8801;G)&amp;#8801;(F&amp;#8835;G)&amp;#8743;(G&amp;#8835;F) &lt;br&gt;17) &amp;#8756; 
+      (F&amp;#8801;G)&amp;#8801;(F&amp;#8743;G)&amp;#8744;(&amp;#8764;F&amp;#8743;&amp;#8764;G)
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    Excluded middle&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      18) &amp;#8756; F&amp;#8744;&amp;#8764;F
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Exportation&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      19) &amp;#8756; (F&amp;#8835;(G&amp;#8835;H))&amp;#8801;((F&amp;#8743;G)&amp;#8835;H)
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Idempotence&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      20) &amp;#8756; (F&amp;#8743;F)&amp;#8801;F 21) &amp;#8756; (F&amp;#8744;F)&amp;#8801;F
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Implication&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      22) &amp;#8756; F&amp;#8835;G&amp;#8801;&amp;#8764;F&amp;#8744;G
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    Relations between connectives&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      23) &amp;#8756; (F&amp;#8835;G)&amp;#8801;(&amp;#8764;F&amp;#8744;G) 
+24) &amp;#8756; (F&amp;#8835;G)&amp;#8801;&amp;#8764;(F&amp;#8743;&amp;#8764;G) 
+25) &amp;#8756; (F&amp;#8744;G)&amp;#8801;(&amp;#8764;F&amp;#8835;G) 
+26) &amp;#8756; (F&amp;#8743;G)&amp;#8801;&amp;#8764;(F&amp;#8835;&amp;#8764;G) 
+27) &amp;#8756; (F&amp;#8801;G)&amp;#8801; ((F&amp;#8835;G) &amp;#8743; (G&amp;#8835;F))
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    Transitivity of Implication&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      28) F&amp;#8835;G,G&amp;#8835;H&amp;#8756;F&amp;#8835;H
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    Transposition&lt;br&gt;&lt;br&gt;
+    &lt;blockquote&gt;
+      29) &amp;#8756; F&amp;#8835;G&amp;#8801;&amp;#8764;G&amp;#8835;&amp;#8764;F
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string> 
+ <object class="java.util.ArrayList"> 
+  <void method="add"> 
+   <object class="interpretation.TInterpretationBoard"> 
+    <void property="semantics"> 
+     <object class="interpretation.TSemantics"/> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="proofwindow.TProofListModel"> 
+  <void property="head"> 
+   <void method="add"> 
+    <object class="proofwindow.TProofline"> 
+     <void property="blankline"> 
+      <boolean>true</boolean> 
+     </void> 
+     <void property="headlevel"> 
+      <int>-1</int> 
+     </void> 
+     <void property="subprooflevel"> 
+      <int>-1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+ <object class="editor2.TDocState"> 
+  <void property="HDivider"> 
+   <int>38</int> 
+  </void> 
+  <void property="VDivider"> 
+   <int>611</int> 
+  </void> 
+  <void property="propLevel"> 
+   <boolean>true</boolean> 
+  </void> 
+ </object> 
+</java> 

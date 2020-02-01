@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15 Gentzen system
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercises to accompany Predicate Tutorial 1
+    &lt;/h2&gt;
+    &lt;p&gt;
+      It is usual to analyse an argument using only propositional logic or 
+      only predicate logic-- you do not mix up the two levels on one argument. 
+      We now move on to predicate logic...
+    &lt;/p&gt;
+    &lt;p&gt;
+      Make sure &lt;em&gt;Predicate Level&lt;/em&gt; is chosen under the &lt;em&gt;Semantics Menu&lt;/em&gt; 
+      .
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 4):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The program knows of three names and has itself adopted the following 
+      conventions regarding them&lt;br&gt;
+    &lt;/p&gt;
+    &lt;div style=&quot;margin-left: 40px&quot;&gt;
+      &lt;div&gt;
+        The name &apos;Arthur&apos; is symbolized by &apos;a&apos;
+      &lt;/div&gt;
+      &lt;div&gt;
+        The name &apos;Beryl&apos; is symbolized by &apos;b&apos;.
+      &lt;/div&gt;
+      The name &apos;Charles&apos; is symbolized by &apos;c&apos;.
+    &lt;/div&gt;
+    &lt;p&gt;
+      The program knows of two intransitive verbs and has itself adopted the 
+      following conventions regarding them
+    &lt;/p&gt;
+    &lt;div style=&quot;margin-left: 40px&quot;&gt;
+      &lt;div&gt;
+        The verb &apos;studies&apos; is symbolized by &apos;S&apos;.
+      &lt;/div&gt;
+      &lt;div&gt;
+        The verb &apos;thinks&apos; is symbolized by &apos;T&apos;.
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &lt;em&gt;To Symbols&lt;/em&gt;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting each symbol and 
+      clicking &lt;em&gt;To English&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize:
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Arthur studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Arthur studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Charles thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Charles thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Beryl studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Beryl studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Arthur studies and Beryl thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Arthur studies and Beryl thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) It is not the case that Charles studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) It is not the case that Charles studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      f) Charles studies only if Arthur studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) Charles studies only if Arthur studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      g) Arthur does not thinks. (*see note*)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) Arthur does not thinks. (*see note*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      h) Arthur and Charles thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) Arthur and Charles thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      i) Neither Beryl nor Arthur thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      i) Neither Beryl nor Arthur thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      j) Beryl studies and thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      j) Beryl studies and thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      k) Both Beryl and Charles both thinks and studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      k) Both Beryl and Charles both thinks and studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      l) Neither Beryl nor Arthur neither studies nor thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      l) Neither Beryl nor Arthur neither studies nor thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      (*Note that English grammar is a context sensitive grammar and this 
+      means that no computer program can deal with it correctly in its 
+      entirety. This program makes simplifications and trims English down to a 
+      basic core &apos;near-English&apos; which a computer can manage. For example, one 
+      simplification is not paying a lot of attention to having verbs agree 
+      properly with their subjects-- for the computer we write &apos;John goes&apos; and 
+      &apos;John and Jill goes&apos;. No doubt you will seized with a warm and humourous 
+      feeling when reading some of these sentences (all students of logic 
+      experience this at some time or another). The point of it is to convey 
+      how grammatical structure transforms into logical structure and the 
+      intermediate near-English helps in this . *)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 4):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Often you would have to chose the conventions (or dictionary) that you 
+      use for translation. In this exercise you must choose how you are going 
+      to symbolize the names and intransitive verbs.
+    &lt;/p&gt;
+    &lt;p&gt;
+      The program knows of the three names and two verbs above. But the 
+      program can be taught more.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Tell the program of your conventions by selecting
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember name (&amp;lt;english in here&amp;gt;) &amp;lt;small letter in here&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember iverb (&amp;lt;english in here&amp;gt;) &amp;lt;capital in here&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      and clicking &apos;Do Command&apos; under the Actions menu.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Then ask the machine to translate back and forward for you.
+    &lt;/p&gt;
+    &lt;p&gt;
+      First tell of your conventions, the first command is laid out for you
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember name (David) d
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember name (Ena) &amp;lt;small letter here&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember iverb (relaxes) R
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember iverb (works) &amp;lt;capital here&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      then symbolize
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) David relaxes.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) David relaxes.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Ena relaxes.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Ena relaxes.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Ena works if and only if David relaxes.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Ena works if and only if David relaxes.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) If David works or relaxes then Ena neither works nor relaxes.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) If David works or relaxes then Ena neither works nor relaxes.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 4):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The program knows of the aforementioned three names.
+    &lt;/p&gt;
+    &lt;p&gt;
+      The program knows of three adjectives and has itself adopted the 
+      following conventions regarding them&lt;br&gt;
+    &lt;/p&gt;
+    &lt;div style=&quot;margin-left: 40px&quot;&gt;
+      &lt;div&gt;
+        The adjectives &apos;angry&apos; is symbolized by &apos;A&apos;.
+      &lt;/div&gt;
+      &lt;div&gt;
+        The adjectives &apos;bold is symbolized by &apos;B&apos;.
+      &lt;/div&gt;
+      The adjectives &apos;cheerful&apos; is symbolized by &apos;C&apos;.
+    &lt;/div&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &apos;To symbols&apos;. When you have symbolized the propositions, ask 
+      the program to translate them back by selecting each symbol and clicking 
+      &apos;To English&apos;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize:
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Arthur is angry and Charles is cheerful.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Arthur is angry and Charles is cheerful.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Beryl is bold.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Beryl is bold.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Charles is not angry.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Charles is not angry.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) If Charles is not angry then Arthur is cheerful.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) If Charles is not angry then Arthur is cheerful.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) Beryl is neither cheerful nor angry.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Beryl is neither cheerful nor angry.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      f) Arthur is angry and cheerful and Charles is cheerful.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) Arthur is angry and cheerful and Charles is cheerful.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 4 (of 4):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      In this exercise you must choose how you are going to symbolize the 
+      adjectives. Tell the program how you are going to do it by selecting
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember adjective (&amp;lt;english in here&amp;gt;) &amp;lt;capital in here&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      and clicking &apos;Do&apos;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Then ask the machine to translate back and forward for you.
+    &lt;/p&gt;
+    &lt;p&gt;
+      First tell of your conventions
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember adjective (kind ) &amp;lt;capital-here&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember adjective (lively) &amp;lt;capital-here&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      then symbolize
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Charles is lively or Beryl is kind.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Charles is lively or Beryl is kind.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Beryl is kind if and only if Arthur is kind.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Beryl is kind if and only if Arthur is kind.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Arthur is both kind and lively.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Arthur is both kind and lively.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) If Charles is kind then Arthur is kind and lively.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) If Charles is kind then Arthur is kind and lively.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) Beryl is lively or Charles is lively or kind.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Beryl is lively or Charles is lively or kind.
+    &lt;/blockquote&gt;
+    &lt;hr style=&quot;height: 2px; width: 100%&quot;&gt;
+    
+
+    &lt;p&gt;
+      &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

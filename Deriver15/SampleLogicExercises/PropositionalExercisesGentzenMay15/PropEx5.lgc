@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h2&gt;
+      Exercises to accompany Tutorial 5
+    &lt;/h2&gt;
+    &lt;p&gt;
+      5/15/05 &lt;em&gt;except for NextLine menu command 5/6/05&lt;/em&gt;
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Each of the derivations in the following Exercise can be done using only 
+      one rule, the Rule of Elimination of Negation &amp;#8764;E.
+    &lt;/p&gt;
+    &lt;p&gt;
+      If the formula in a line in a derivation has the form
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;#8764;&amp;#8764;&amp;lt;formula&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      the Rule of Elimination of Negation &amp;#8764;E allows you to remove
+    &lt;/p&gt;
+    &lt;p&gt;
+      both negations and add
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      as an extra line.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Show each of the following arguments to be valid. Select the argument 
+      (and select only the argument, don&apos;t include &apos;a)&apos; or &apos;b)&apos; ...), click 
+      &apos;Start Proof&apos; from the Actions Menu, select individual lines and click 
+      &amp;#8764;E, until you obtain the conclusion. If you are stuck, ask the program 
+      to do one line for you (choose &lt;i&gt;Next Line&lt;/i&gt; under the &lt;i&gt;Wizard&lt;/i&gt; 
+      Menu, &lt;i&gt;not available yet&lt;/i&gt;); then, having seen what the next line 
+      is, go to the Edit Menu click Undo Next Line and try to do it yourself.
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) &amp;#8764;&amp;#8764;F&amp;#8756;F
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) (&amp;#8764;(&amp;#8764;F))&amp;#8756;F
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) F, &amp;#8764;&amp;#8764;&amp;#8764;&amp;#8764;G,H&amp;#8756;G
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Each of the derivations in the following Exercise can be done using only 
+      two rules, the Rule of Elimination of Conjunction &amp;#8764;&amp;#8743;, and &amp;#8764;E (learned 
+      previously).
+    &lt;/p&gt;
+    &lt;p&gt;
+      If the formula in a line in a derivation has the form
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula1&amp;gt;&amp;#8743;&amp;lt;formula2&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      the Rule of Elimination of Conjunction &amp;#8743;E allows you to remove the 
+      conjunction and add either
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula1&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      or
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula2&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      as an extra line. You have a choice here (whether to take the left 
+      conjunct or the right conjunct)-- you will be asked to choose.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Show each of the following arguments to be valid. If you are stuck, ask 
+      the program to do one line for you (choose &lt;i&gt;Next Line&lt;/i&gt; under the &lt;i&gt;Wizard&lt;/i&gt; 
+      Menu, &lt;i&gt;not available yet&lt;/i&gt;); then, having seen what the next line 
+      is, go to the Edit Menu click Undo Next Line and try to do it yourself.
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) F&amp;#8743;G &amp;#8756; F
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) F&amp;#8743;G &amp;#8756; G
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) &amp;#8764;&amp;#8764;((F&amp;#8743;G)&amp;#8743;(F&amp;#8743;H)) &amp;#8756; F&amp;#8743;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) F,(F&amp;#8743;&amp;#8764;&amp;#8764;G)&amp;#8743;(F&amp;#8743;H),H &amp;#8756; G
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Each of the derivations in the following Exercise can be done using only 
+      three rules, the Rule of Introduction of Conjunction &amp;#8743;I, and &amp;#8764;E and &amp;#8743;I 
+      (learned previously).
+    &lt;/p&gt;
+    &lt;p&gt;
+      If the formula in a line of a derivation has the form
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula1&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      and a formula in a line of a derivation has the form
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula2&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      the Rule of Introduction of Conjunction &amp;#8743;I allows you to add
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula1&amp;gt;&amp;#8743;&amp;lt;formula2&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      To use this Rule, select two formulas &amp;lt;firstformula&amp;gt; and &amp;lt;secondformula&amp;gt; 
+      (*note that the way you select a second formula is to press the command 
+      key (clover leaf on a Macintosh) and then click on the line*) and click 
+      &amp;#8743;I. You choose whether the first formula is to go on the left or on the 
+      right.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Show each of the following arguments to be valid.
+    &lt;/p&gt;
+    &lt;p&gt;
+      If you are stuck, ask the program to do one line for you (choose &lt;i&gt;Next 
+      Line&lt;/i&gt; under the &lt;i&gt;Wizard&lt;/i&gt; Menu, &lt;i&gt;not available yet&lt;/i&gt;); then, 
+      having seen what the next line is, go to the Edit Menu click Undo Next 
+      Line and try to do it yourself.
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) F,G &amp;#8756; F&amp;#8743;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) F,G &amp;#8756; G&amp;#8743;F
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) F&amp;#8743;G,F,&amp;#8764;&amp;#8764;H &amp;#8756; (F&amp;#8743;G)&amp;#8743;(F&amp;#8743;H)
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) F,G,H &amp;#8756; (F&amp;#8743;G)&amp;#8743;(F&amp;#8743;H)
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) F &amp;#8756; F&amp;#8743;F
+      &lt;/p&gt;
+      &lt;p&gt;
+        f) F&amp;#8743;(G&amp;#8743;H) &amp;#8756; (F&amp;#8743;G)&amp;#8743;H
+      &lt;/p&gt;
+      &lt;p&gt;
+        g) (F&amp;#8743;G)&amp;#8743;(F&amp;#8743;H) &amp;#8756; F&amp;#8743;(G&amp;#8743;H)
+      &lt;/p&gt;
+      &lt;p&gt;
+        h) F,G&amp;#8743;H,(A&amp;#8743;B)&amp;#8743;C &amp;#8756; (A&amp;#8743;G)&amp;#8743;F
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      Exercise 4 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Each of the derivations in the following Exercise can be done using only 
+      four rules, the Rule of Introduction of Disjunction &amp;#8744;I, and &amp;#8764;E, &amp;#8743;E, and 
+      &amp;#8743;I (learned previously).
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      If the formula in a line of a derivation has the form
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      the Rule of Introduction of Disjunction &amp;#8744;I allows you to add
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;formula&amp;gt;&amp;#8744;&amp;lt;newformula&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      or to add
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;newformula&amp;gt;&amp;#8744;&amp;lt;formula&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      To use this Rule, select a formula &amp;lt;formula&amp;gt; and click &amp;#8744;I. The program 
+      will ask you what you want as the &amp;lt;newformula&amp;gt;. The program will also 
+      ask you whether the &amp;lt;newformula&amp;gt; is to go on the left or on the right.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Show each of the following arguments to be valid.
+    &lt;/p&gt;
+    &lt;p&gt;
+      If you are stuck, ask the program to do one line for you (choose &lt;i&gt;Next 
+      Line&lt;/i&gt; under the &lt;i&gt;Wizard&lt;/i&gt; Menu, &lt;i&gt;not available yet&lt;/i&gt;); then, 
+      having seen what the next line is, go to the Edit Menu click Undo Next 
+      Line and try to do it yourself.
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) F &amp;#8756; F&amp;#8744;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) F &amp;#8756; G&amp;#8744;F
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) F&amp;#8743;G &amp;#8756; G&amp;#8744;H
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) F&amp;#8743;&amp;#8764;&amp;#8764;G &amp;#8756; F&amp;#8743;(G&amp;#8744;H)
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26">
+         <void index="0">
+          <boolean>true</boolean>
+         </void>
+         <void index="2">
+          <boolean>true</boolean>
+         </void>
+         <void index="3">
+          <boolean>true</boolean>
+         </void>
+        </array>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>445</int>
+  </void>
+  <void property="propLevel">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      
+    &lt;/h2&gt;
+    &lt;h2&gt;
+      Exercises to accompany Predicate Tutorial 4
+    &lt;/h2&gt;
+    &lt;p&gt;
+      In the Drawing (or Interpretation) panel...
+    &lt;/p&gt;
+    &lt;p&gt;
+      Individuals are circles, properties are rectangles which may or may not 
+      surround a particular individual, and, later, we will come to relations 
+      which are lines which connect individuals.
+    &lt;/p&gt;
+    &lt;p&gt;
+      If an individual is within a property rectangle; it is considered to 
+      have that property. If it is not, it does not. So if you have an 
+      individual &apos;a&apos;, and no property &apos;P&apos; , then a is taken to lack P and so 
+      the formula Pa is false.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Formulas written here in the &lt;em&gt;Journal Panel&lt;/em&gt; are taken to be 
+      about the &lt;em&gt;Interpretation Panel.&lt;/em&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      Try doing some drawing. Click on the circle in the palette, click on the 
+      point you want it in the window, move it slightly (to show your clicks 
+      are really intended), then release. This will leave you a little circle, 
+      probably with four blobs on it. The blobs mean that the individual is 
+      still selected. Selected items are not considered to be genuine parts of 
+      the drawing. Click down somewhere else in the drawing. This will stop 
+      the circle being selected, and thus add it. Up in the top left corner is 
+      a description of the drawing. You should see that the new entity is now 
+      part of the Universe.
+    &lt;/p&gt;
+    &lt;p&gt;
+      If you wish to choose a name for the an entity that you add just type 
+      the constant term you want. Try this. Click on the circle in the 
+      palette, type lower case &apos;d&apos;, draw your circle. This will add &apos;d&apos; to the 
+      Universe. If you do not wish to choose, the program will automatically 
+      choose names for the entities.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Try drawing some properties. Again if you want to give one a name just 
+      type the Predicate you want. Try this. Click on the square in the 
+      palette, type upper case &apos;K&apos;, draw a square around an existing circle. 
+      The drawing is constrained to be well presented.
+    &lt;/p&gt;
+    &lt;p&gt;
+      An individual may or may not have a property. So you can draw (or move) 
+      individuals almost anywhere. But properties must apply to at least one 
+      individual-- you can draw a property around an individual, but not in 
+      empty space.
+    &lt;/p&gt;
+    &lt;p&gt;
+      You can colour or shade your properties as you wish.
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Produce drawings in which each of the following formulas are true. (To 
+      rid yourself of an earlier drawing merely &lt;em&gt;Select All&lt;/em&gt; and &lt;em&gt;Cut&lt;/em&gt; 
+      under the &lt;em&gt;Drawing Edit Menu&lt;/em&gt;). If you are having trouble, select 
+      the formula and click &lt;em&gt;Satisfiable?&lt;/em&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Fa
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Gb
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) ~Fb
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) ~Fa&amp;#8835;~Gb
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) (~Fa&amp;#8744;~Gb)&amp;#8744;Hc
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) Fa&amp;#8801;Gb
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) ~Fc&amp;#8744;(Fa&amp;#8743;Gb)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Produce a drawing in which each formula in the following list of 
+      formulas are true. If you are having trouble, select the list and click 
+      Satisfiable?
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      Fa,
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      Gb,
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      ~Fb,
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      ~Fa&amp;#8835;~Gb,
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (~Fa&amp;#8744;~Gb)&amp;#8744;Hc,
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      Fa&amp;#8801;Gb,
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      ~Fc&amp;#8744;(Fa&amp;#8743; Gb)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Produce a drawing which proves the following argument to be invalid 
+      (i.e. in which all the premises are true and the conclusion false). If 
+      you are having trouble, select the Test list and click Satisfiable?
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      Fa,
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      Gb,
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      &amp;#8756;
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (Fa&amp;#8801;Gb)&amp;#8835;Ha
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      {Test list
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      Fa,Gb,~((Fa&amp;#8801;Gb)&amp;#8835;Ha)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      }
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TProperty" id="TProperty0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TProperty0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TProperty0"/>
+      <char>K</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>249</int>
+    </void>
+    <void property="YCoord">
+     <int>57</int>
+    </void>
+    <void id="Rectangle0" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>74</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>73</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle0"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual0"/>
+      <char>d</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>285</int>
+    </void>
+    <void property="YCoord">
+     <int>86</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual1"/>
+      <char>a</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>89</int>
+    </void>
+    <void property="YCoord">
+     <int>110</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard" id="TInterpretationBoard0">
+    <void id="Rectangle1" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>150</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>40</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle1"/>
+    </void>
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel" id="TTreeTableModel0">
+  <void id="DefaultMutableTreeNode0" property="hostRoot">
+   <void id="TTreeDataNode0" property="userObject">
+    <void class="us.softoption.interpretation.ag" method="getField">
+     <string>b</string>
+     <void method="set">
+      <object idref="TTreeDataNode0"/>
+      <object class="us.softoption.parser.TParser" id="TParser0"/>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.ag" method="getField">
+     <string>d</string>
+     <void method="set">
+      <object idref="TTreeDataNode0"/>
+      <boolean>true</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.ag" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TTreeDataNode0"/>
+      <object idref="DefaultMutableTreeNode0"/>
+     </void>
+    </void>
+    <void property="justification">
+     <string>SM</string>
+    </void>
+    <void property="lineno">
+     <int>1</int>
+    </void>
+   </void>
+   <void method="add">
+    <object class="javax.swing.tree.DefaultMutableTreeNode">
+     <void property="userObject">
+      <string>LeftDiag</string>
+     </void>
+     <void method="add">
+      <object class="javax.swing.tree.DefaultMutableTreeNode" id="DefaultMutableTreeNode1">
+       <void property="userObject">
+        <object class="us.softoption.tree.TTreeDataNode" id="TTreeDataNode1">
+         <void class="us.softoption.interpretation.ag" method="getField">
+          <string>b</string>
+          <void method="set">
+           <object idref="TTreeDataNode1"/>
+           <object idref="TParser0"/>
+          </void>
+         </void>
+         <void class="us.softoption.interpretation.ag" method="getField">
+          <string>m</string>
+          <void method="set">
+           <object idref="TTreeDataNode1"/>
+           <object idref="DefaultMutableTreeNode1"/>
+          </void>
+         </void>
+         <void property="firstJustno">
+          <int>1</int>
+         </void>
+         <void property="justification">
+          <string> ∼≡D</string>
+         </void>
+         <void property="lineno">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="javax.swing.tree.DefaultMutableTreeNode" id="DefaultMutableTreeNode2">
+         <void property="userObject">
+          <object class="us.softoption.tree.TTreeDataNode" id="TTreeDataNode2">
+           <void class="us.softoption.interpretation.ag" method="getField">
+            <string>b</string>
+            <void method="set">
+             <object idref="TTreeDataNode2"/>
+             <object idref="TParser0"/>
+            </void>
+           </void>
+           <void class="us.softoption.interpretation.ag" method="getField">
+            <string>m</string>
+            <void method="set">
+             <object idref="TTreeDataNode2"/>
+             <object idref="DefaultMutableTreeNode2"/>
+            </void>
+           </void>
+           <void property="firstJustno">
+            <int>1</int>
+           </void>
+           <void property="justification">
+            <string> ∼≡D</string>
+           </void>
+           <void property="lineno">
+            <int>3</int>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="javax.swing.tree.DefaultMutableTreeNode">
+     <void property="userObject">
+      <string>RightDiag</string>
+     </void>
+     <void method="add">
+      <object class="javax.swing.tree.DefaultMutableTreeNode" id="DefaultMutableTreeNode3">
+       <void property="userObject">
+        <object class="us.softoption.tree.TTreeDataNode" id="TTreeDataNode3">
+         <void class="us.softoption.interpretation.ag" method="getField">
+          <string>b</string>
+          <void method="set">
+           <object idref="TTreeDataNode3"/>
+           <object idref="TParser0"/>
+          </void>
+         </void>
+         <void class="us.softoption.interpretation.ag" method="getField">
+          <string>m</string>
+          <void method="set">
+           <object idref="TTreeDataNode3"/>
+           <object idref="DefaultMutableTreeNode3"/>
+          </void>
+         </void>
+         <void property="firstJustno">
+          <int>1</int>
+         </void>
+         <void property="justification">
+          <string> ∼≡D</string>
+         </void>
+         <void property="lineno">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="javax.swing.tree.DefaultMutableTreeNode" id="DefaultMutableTreeNode4">
+         <void property="userObject">
+          <object class="us.softoption.tree.TTreeDataNode" id="TTreeDataNode4">
+           <void class="us.softoption.interpretation.ag" method="getField">
+            <string>b</string>
+            <void method="set">
+             <object idref="TTreeDataNode4"/>
+             <object idref="TParser0"/>
+            </void>
+           </void>
+           <void class="us.softoption.interpretation.ag" method="getField">
+            <string>m</string>
+            <void method="set">
+             <object idref="TTreeDataNode4"/>
+             <object idref="DefaultMutableTreeNode4"/>
+            </void>
+           </void>
+           <void property="firstJustno">
+            <int>1</int>
+           </void>
+           <void property="justification">
+            <string> ∼≡D</string>
+           </void>
+           <void property="lineno">
+            <int>3</int>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="root">
+   <object idref="TTreeDataNode0"/>
+  </void>
+ </object>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+  <void property="tabIndex">
+   <int>1</int>
+  </void>
+ </object>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula0">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula0"/>
+     <string>F</string>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula0"/>
+     <object class="us.softoption.parser.TFormula" id="TFormula1">
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>h</string>
+       <void method="set">
+        <object idref="TFormula1"/>
+        <object class="us.softoption.parser.TFormula" id="TFormula2">
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>f</string>
+          <void method="set">
+           <object idref="TFormula2"/>
+           <short>8</short>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>g</string>
+          <void method="set">
+           <object idref="TFormula2"/>
+           <string>x</string>
+          </void>
+         </void>
+        </object>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>i</string>
+       <void method="set">
+        <object idref="TFormula1"/>
+        <object class="us.softoption.parser.TFormula" id="TFormula3">
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>h</string>
+          <void method="set">
+           <object idref="TFormula3"/>
+           <object class="us.softoption.parser.TFormula" id="TFormula4">
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>f</string>
+             <void method="set">
+              <object idref="TFormula4"/>
+              <short>8</short>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>g</string>
+             <void method="set">
+              <object idref="TFormula4"/>
+              <string>y</string>
+             </void>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+  </object>
+  <short>5</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>h</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula5"/>
+  <object class="us.softoption.parser.TFormula" id="TFormula6">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>f</string>
+    <void method="set">
+     <object idref="TFormula6"/>
+     <short>8</short>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula6"/>
+     <string>y</string>
+    </void>
+   </void>
+  </object>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula7">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula7"/>
+     <string>y</string>
+    </void>
+   </void>
+  </object>
+  <short>8</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula8">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula8"/>
+     <string>y</string>
+    </void>
+   </void>
+  </object>
+  <short>8</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula9">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula9"/>
+     <string>∼</string>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula9"/>
+     <object class="us.softoption.parser.TFormula" id="TFormula10">
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>f</string>
+       <void method="set">
+        <object idref="TFormula10"/>
+        <short>1</short>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>g</string>
+       <void method="set">
+        <object idref="TFormula10"/>
+        <string>≡</string>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>h</string>
+       <void method="set">
+        <object idref="TFormula10"/>
+        <object class="us.softoption.parser.TFormula" id="TFormula11">
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>f</string>
+          <void method="set">
+           <object idref="TFormula11"/>
+           <short>6</short>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>g</string>
+          <void method="set">
+           <object idref="TFormula11"/>
+           <string>∃</string>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>h</string>
+          <void method="set">
+           <object idref="TFormula11"/>
+           <object class="us.softoption.parser.TFormula" id="TFormula12">
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>f</string>
+             <void method="set">
+              <object idref="TFormula12"/>
+              <short>8</short>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>g</string>
+             <void method="set">
+              <object idref="TFormula12"/>
+              <string>x</string>
+             </void>
+            </void>
+           </object>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>i</string>
+          <void method="set">
+           <object idref="TFormula11"/>
+           <object class="us.softoption.parser.TFormula" id="TFormula13">
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>f</string>
+             <void method="set">
+              <object idref="TFormula13"/>
+              <short>6</short>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>g</string>
+             <void method="set">
+              <object idref="TFormula13"/>
+              <string>∃</string>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>h</string>
+             <void method="set">
+              <object idref="TFormula13"/>
+              <object class="us.softoption.parser.TFormula" id="TFormula14">
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>f</string>
+                <void method="set">
+                 <object idref="TFormula14"/>
+                 <short>8</short>
+                </void>
+               </void>
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>g</string>
+                <void method="set">
+                 <object idref="TFormula14"/>
+                 <string>y</string>
+                </void>
+               </void>
+              </object>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>i</string>
+             <void method="set">
+              <object idref="TFormula13"/>
+              <object class="us.softoption.parser.TFormula" id="TFormula15">
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>f</string>
+                <void method="set">
+                 <object idref="TFormula15"/>
+                 <short>5</short>
+                </void>
+               </void>
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>g</string>
+                <void method="set">
+                 <object idref="TFormula15"/>
+                 <string>F</string>
+                </void>
+               </void>
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>i</string>
+                <void method="set">
+                 <object idref="TFormula15"/>
+                 <object class="us.softoption.parser.TFormula" id="TFormula16">
+                  <void class="us.softoption.parser.TFormula" method="getField">
+                   <string>h</string>
+                   <void method="set">
+                    <object idref="TFormula16"/>
+                    <object class="us.softoption.parser.TFormula" id="TFormula17">
+                     <void class="us.softoption.parser.TFormula" method="getField">
+                      <string>f</string>
+                      <void method="set">
+                       <object idref="TFormula17"/>
+                       <short>8</short>
+                      </void>
+                     </void>
+                     <void class="us.softoption.parser.TFormula" method="getField">
+                      <string>g</string>
+                      <void method="set">
+                       <object idref="TFormula17"/>
+                       <string>x</string>
+                      </void>
+                     </void>
+                    </object>
+                   </void>
+                  </void>
+                  <void class="us.softoption.parser.TFormula" method="getField">
+                   <string>i</string>
+                   <void method="set">
+                    <object idref="TFormula16"/>
+                    <object class="us.softoption.parser.TFormula" id="TFormula18">
+                     <void class="us.softoption.parser.TFormula" method="getField">
+                      <string>h</string>
+                      <void method="set">
+                       <object idref="TFormula18"/>
+                       <object idref="TFormula7"/>
+                      </void>
+                     </void>
+                    </object>
+                   </void>
+                  </void>
+                 </object>
+                </void>
+               </void>
+              </object>
+             </void>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>i</string>
+       <void method="set">
+        <object idref="TFormula10"/>
+        <object class="us.softoption.parser.TFormula" id="TFormula19">
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>f</string>
+          <void method="set">
+           <object idref="TFormula19"/>
+           <short>6</short>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>g</string>
+          <void method="set">
+           <object idref="TFormula19"/>
+           <string>∃</string>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>h</string>
+          <void method="set">
+           <object idref="TFormula19"/>
+           <object class="us.softoption.parser.TFormula" id="TFormula20">
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>f</string>
+             <void method="set">
+              <object idref="TFormula20"/>
+              <short>8</short>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>g</string>
+             <void method="set">
+              <object idref="TFormula20"/>
+              <string>y</string>
+             </void>
+            </void>
+           </object>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>i</string>
+          <void method="set">
+           <object idref="TFormula19"/>
+           <object class="us.softoption.parser.TFormula" id="TFormula21">
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>f</string>
+             <void method="set">
+              <object idref="TFormula21"/>
+              <short>6</short>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>g</string>
+             <void method="set">
+              <object idref="TFormula21"/>
+              <string>∃</string>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>h</string>
+             <void method="set">
+              <object idref="TFormula21"/>
+              <object class="us.softoption.parser.TFormula" id="TFormula22">
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>f</string>
+                <void method="set">
+                 <object idref="TFormula22"/>
+                 <short>8</short>
+                </void>
+               </void>
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>g</string>
+                <void method="set">
+                 <object idref="TFormula22"/>
+                 <string>x</string>
+                </void>
+               </void>
+              </object>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>i</string>
+             <void method="set">
+              <object idref="TFormula21"/>
+              <object class="us.softoption.parser.TFormula" id="TFormula23">
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>f</string>
+                <void method="set">
+                 <object idref="TFormula23"/>
+                 <short>5</short>
+                </void>
+               </void>
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>g</string>
+                <void method="set">
+                 <object idref="TFormula23"/>
+                 <string>F</string>
+                </void>
+               </void>
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>i</string>
+                <void method="set">
+                 <object idref="TFormula23"/>
+                 <object class="us.softoption.parser.TFormula" id="TFormula24">
+                  <void class="us.softoption.parser.TFormula" method="getField">
+                   <string>h</string>
+                   <void method="set">
+                    <object idref="TFormula24"/>
+                    <object class="us.softoption.parser.TFormula" id="TFormula25">
+                     <void class="us.softoption.parser.TFormula" method="getField">
+                      <string>f</string>
+                      <void method="set">
+                       <object idref="TFormula25"/>
+                       <short>8</short>
+                      </void>
+                     </void>
+                     <void class="us.softoption.parser.TFormula" method="getField">
+                      <string>g</string>
+                      <void method="set">
+                       <object idref="TFormula25"/>
+                       <string>x</string>
+                      </void>
+                     </void>
+                    </object>
+                   </void>
+                  </void>
+                  <void class="us.softoption.parser.TFormula" method="getField">
+                   <string>i</string>
+                   <void method="set">
+                    <object idref="TFormula24"/>
+                    <object class="us.softoption.parser.TFormula" id="TFormula26">
+                     <void class="us.softoption.parser.TFormula" method="getField">
+                      <string>h</string>
+                      <void method="set">
+                       <object idref="TFormula26"/>
+                       <object class="us.softoption.parser.TFormula" id="TFormula27">
+                        <void class="us.softoption.parser.TFormula" method="getField">
+                         <string>f</string>
+                         <void method="set">
+                          <object idref="TFormula27"/>
+                          <short>8</short>
+                         </void>
+                        </void>
+                        <void class="us.softoption.parser.TFormula" method="getField">
+                         <string>g</string>
+                         <void method="set">
+                          <object idref="TFormula27"/>
+                          <string>y</string>
+                         </void>
+                        </void>
+                       </object>
+                      </void>
+                     </void>
+                    </object>
+                   </void>
+                  </void>
+                 </object>
+                </void>
+               </void>
+              </object>
+             </void>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+  </object>
+  <short>7</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula28">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula28"/>
+     <string>y</string>
+    </void>
+   </void>
+  </object>
+  <short>8</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>h</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula29">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula29"/>
+     <object idref="TFormula5"/>
+    </void>
+   </void>
+  </object>
+  <object class="us.softoption.parser.TFormula" id="TFormula30">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>f</string>
+    <void method="set">
+     <object idref="TFormula30"/>
+     <short>8</short>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula30"/>
+     <string>x</string>
+    </void>
+   </void>
+  </object>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula31">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula31"/>
+     <string>y</string>
+    </void>
+   </void>
+  </object>
+  <short>8</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula32">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula32"/>
+     <string>∃</string>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>h</string>
+    <void method="set">
+     <object idref="TFormula32"/>
+     <object class="us.softoption.parser.TFormula" id="TFormula33">
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>f</string>
+       <void method="set">
+        <object idref="TFormula33"/>
+        <short>8</short>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>g</string>
+       <void method="set">
+        <object idref="TFormula33"/>
+        <string>x</string>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula32"/>
+     <object class="us.softoption.parser.TFormula" id="TFormula34">
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>f</string>
+       <void method="set">
+        <object idref="TFormula34"/>
+        <short>6</short>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>g</string>
+       <void method="set">
+        <object idref="TFormula34"/>
+        <string>∃</string>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>h</string>
+       <void method="set">
+        <object idref="TFormula34"/>
+        <object class="us.softoption.parser.TFormula" id="TFormula35">
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>f</string>
+          <void method="set">
+           <object idref="TFormula35"/>
+           <short>8</short>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>g</string>
+          <void method="set">
+           <object idref="TFormula35"/>
+           <string>y</string>
+          </void>
+         </void>
+        </object>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>i</string>
+       <void method="set">
+        <object idref="TFormula34"/>
+        <object class="us.softoption.parser.TFormula" id="TFormula36">
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>f</string>
+          <void method="set">
+           <object idref="TFormula36"/>
+           <short>5</short>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>g</string>
+          <void method="set">
+           <object idref="TFormula36"/>
+           <string>F</string>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>i</string>
+          <void method="set">
+           <object idref="TFormula36"/>
+           <object class="us.softoption.parser.TFormula" id="TFormula37">
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>h</string>
+             <void method="set">
+              <object idref="TFormula37"/>
+              <object class="us.softoption.parser.TFormula" id="TFormula38">
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>f</string>
+                <void method="set">
+                 <object idref="TFormula38"/>
+                 <short>8</short>
+                </void>
+               </void>
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>g</string>
+                <void method="set">
+                 <object idref="TFormula38"/>
+                 <string>x</string>
+                </void>
+               </void>
+              </object>
+             </void>
+            </void>
+            <void class="us.softoption.parser.TFormula" method="getField">
+             <string>i</string>
+             <void method="set">
+              <object idref="TFormula37"/>
+              <object class="us.softoption.parser.TFormula" id="TFormula39">
+               <void class="us.softoption.parser.TFormula" method="getField">
+                <string>h</string>
+                <void method="set">
+                 <object idref="TFormula39"/>
+                 <object idref="TFormula8"/>
+                </void>
+               </void>
+              </object>
+             </void>
+            </void>
+           </object>
+          </void>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+  </object>
+  <short>6</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula40">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula40"/>
+     <string>x</string>
+    </void>
+   </void>
+  </object>
+  <short>8</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula41">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula41"/>
+     <string>x</string>
+    </void>
+   </void>
+  </object>
+  <short>8</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>h</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula42">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula42"/>
+     <object class="us.softoption.parser.TFormula" id="TFormula43">
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>h</string>
+       <void method="set">
+        <object idref="TFormula43"/>
+        <object idref="TFormula31"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+  </object>
+  <object class="us.softoption.parser.TFormula" id="TFormula44">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>f</string>
+    <void method="set">
+     <object idref="TFormula44"/>
+     <short>8</short>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula44"/>
+     <string>x</string>
+    </void>
+   </void>
+  </object>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula45">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula45"/>
+     <string>∼</string>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula45"/>
+     <object idref="TFormula32"/>
+    </void>
+   </void>
+  </object>
+  <short>7</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula46">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula46"/>
+     <string>F</string>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula46"/>
+     <object idref="TFormula42"/>
+    </void>
+   </void>
+  </object>
+  <short>5</short>
+ </void>
+</void>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula47">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula47"/>
+     <string>∃</string>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>h</string>
+    <void method="set">
+     <object idref="TFormula47"/>
+     <object class="us.softoption.parser.TFormula" id="TFormula48">
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>f</string>
+       <void method="set">
+        <object idref="TFormula48"/>
+        <short>8</short>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>g</string>
+       <void method="set">
+        <object idref="TFormula48"/>
+        <string>y</string>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula47"/>
+     <object class="us.softoption.parser.TFormula" id="TFormula49">
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>f</string>
+       <void method="set">
+        <object idref="TFormula49"/>
+        <short>6</short>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>g</string>
+       <void method="set">
+        <object idref="TFormula49"/>
+        <string>∃</string>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>h</string>
+       <void method="set">
+        <object idref="TFormula49"/>
+        <object idref="TFormula41"/>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>i</string>
+       <void method="set">
+        <object idref="TFormula49"/>
+        <object class="us.softoption.parser.TFormula" id="TFormula50">
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>f</string>
+          <void method="set">
+           <object idref="TFormula50"/>
+           <short>5</short>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>g</string>
+          <void method="set">
+           <object idref="TFormula50"/>
+           <string>F</string>
+          </void>
+         </void>
+         <void class="us.softoption.parser.TFormula" method="getField">
+          <string>i</string>
+          <void method="set">
+           <object idref="TFormula50"/>
+           <object idref="TFormula29"/>
+          </void>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+  </object>
+  <short>6</short>
+ </void>
+</void>
+<void class="us.softoption.interpretation.ag" id="Field0" method="getField">
+ <string>e</string>
+ <void id="ArrayList0" method="get">
+  <object idref="TTreeDataNode1"/>
+  <void method="add">
+   <object class="us.softoption.parser.TFormula" id="TFormula51">
+    <void class="us.softoption.parser.TFormula" method="getField">
+     <string>f</string>
+     <void method="set">
+      <object idref="TFormula51"/>
+      <short>6</short>
+     </void>
+    </void>
+    <void class="us.softoption.parser.TFormula" method="getField">
+     <string>g</string>
+     <void method="set">
+      <object idref="TFormula51"/>
+      <string>∃</string>
+     </void>
+    </void>
+    <void class="us.softoption.parser.TFormula" method="getField">
+     <string>h</string>
+     <void method="set">
+      <object idref="TFormula51"/>
+      <object class="us.softoption.parser.TFormula" id="TFormula52">
+       <void class="us.softoption.parser.TFormula" method="getField">
+        <string>f</string>
+        <void method="set">
+         <object idref="TFormula52"/>
+         <short>8</short>
+        </void>
+       </void>
+       <void class="us.softoption.parser.TFormula" method="getField">
+        <string>g</string>
+        <void method="set">
+         <object idref="TFormula52"/>
+         <string>x</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="us.softoption.parser.TFormula" method="getField">
+     <string>i</string>
+     <void method="set">
+      <object idref="TFormula51"/>
+      <object class="us.softoption.parser.TFormula" id="TFormula53">
+       <void class="us.softoption.parser.TFormula" method="getField">
+        <string>f</string>
+        <void method="set">
+         <object idref="TFormula53"/>
+         <short>6</short>
+        </void>
+       </void>
+       <void class="us.softoption.parser.TFormula" method="getField">
+        <string>g</string>
+        <void method="set">
+         <object idref="TFormula53"/>
+         <string>∃</string>
+        </void>
+       </void>
+       <void class="us.softoption.parser.TFormula" method="getField">
+        <string>h</string>
+        <void method="set">
+         <object idref="TFormula53"/>
+         <object class="us.softoption.parser.TFormula" id="TFormula54">
+          <void class="us.softoption.parser.TFormula" method="getField">
+           <string>f</string>
+           <void method="set">
+            <object idref="TFormula54"/>
+            <short>8</short>
+           </void>
+          </void>
+          <void class="us.softoption.parser.TFormula" method="getField">
+           <string>g</string>
+           <void method="set">
+            <object idref="TFormula54"/>
+            <string>y</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+       <void class="us.softoption.parser.TFormula" method="getField">
+        <string>i</string>
+        <void method="set">
+         <object idref="TFormula53"/>
+         <object idref="TFormula0"/>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+<void class="us.softoption.interpretation.ag" id="Field1" method="getField">
+ <string>e</string>
+ <void id="ArrayList1" method="get">
+  <object idref="TTreeDataNode2"/>
+  <void method="add">
+   <object class="us.softoption.parser.TFormula" id="TFormula55">
+    <void class="us.softoption.parser.TFormula" method="getField">
+     <string>f</string>
+     <void method="set">
+      <object idref="TFormula55"/>
+      <short>7</short>
+     </void>
+    </void>
+    <void class="us.softoption.parser.TFormula" method="getField">
+     <string>g</string>
+     <void method="set">
+      <object idref="TFormula55"/>
+      <string>∼</string>
+     </void>
+    </void>
+    <void class="us.softoption.parser.TFormula" method="getField">
+     <string>i</string>
+     <void method="set">
+      <object idref="TFormula55"/>
+      <object idref="TFormula47"/>
+     </void>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+<void class="us.softoption.interpretation.ag" id="Field2" method="getField">
+ <string>e</string>
+ <void id="ArrayList2" method="get">
+  <object idref="TTreeDataNode3"/>
+  <void method="add">
+   <object idref="TFormula45"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList2"/>
+<void class="us.softoption.parser.TFormula" method="getField">
+ <string>f</string>
+ <void method="set">
+  <object class="us.softoption.parser.TFormula" id="TFormula56">
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>g</string>
+    <void method="set">
+     <object idref="TFormula56"/>
+     <string>∃</string>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>h</string>
+    <void method="set">
+     <object idref="TFormula56"/>
+     <object idref="TFormula28"/>
+    </void>
+   </void>
+   <void class="us.softoption.parser.TFormula" method="getField">
+    <string>i</string>
+    <void method="set">
+     <object idref="TFormula56"/>
+     <object class="us.softoption.parser.TFormula" id="TFormula57">
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>f</string>
+       <void method="set">
+        <object idref="TFormula57"/>
+        <short>6</short>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>g</string>
+       <void method="set">
+        <object idref="TFormula57"/>
+        <string>∃</string>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>h</string>
+       <void method="set">
+        <object idref="TFormula57"/>
+        <object idref="TFormula40"/>
+       </void>
+      </void>
+      <void class="us.softoption.parser.TFormula" method="getField">
+       <string>i</string>
+       <void method="set">
+        <object idref="TFormula57"/>
+        <object idref="TFormula46"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+  </object>
+  <short>6</short>
+ </void>
+</void>
+<void class="us.softoption.interpretation.ag" id="Field3" method="getField">
+ <string>e</string>
+ <void id="ArrayList3" method="get">
+  <object idref="TTreeDataNode4"/>
+  <void method="add">
+   <object idref="TFormula56"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList3"/>
+<void class="us.softoption.interpretation.ag" id="Field4" method="getField">
+ <string>e</string>
+ <void id="ArrayList4" method="get">
+  <object idref="TTreeDataNode0"/>
+  <void method="add">
+   <object idref="TFormula9"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList4"/>
+</java>

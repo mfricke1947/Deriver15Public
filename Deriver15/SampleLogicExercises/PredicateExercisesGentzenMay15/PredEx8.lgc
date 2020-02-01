@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      
+    &lt;/h2&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 8
+    &lt;/h2&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Identify the scopes of the following formulas
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (&amp;#8704;x)(Fx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (&amp;#8704;x)(Fx&amp;#8835;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) (&amp;#8704;x)(Fx)&amp;#8835;Gx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) (&amp;#8707;x)(Fx)&amp;#8743;Gx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) (&amp;#8707;x)(Fx&amp;#8743;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) (&amp;#8704;y)(Hy&amp;#8835;(&amp;#8707;x)(Fx&amp;#8743;Gx))
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) (&amp;#8704;y)((&amp;#8704;x)((&amp;#8704;z)(Hy&amp;#8743;(Fz&amp;#8743;Gx))))
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      ANSWERS
+    &lt;/p&gt;
+    &lt;p&gt;
+      a) (Fx)
+    &lt;/p&gt;
+    &lt;p&gt;
+      b) (Fx&amp;#8835;Gx)
+    &lt;/p&gt;
+    &lt;p&gt;
+      c) This is a bit of a trick question, sorry. (&amp;#8704;x)(Fx)&amp;#8835;Gx has as its main 
+      connective the &amp;#8835; so the formula as a whole is not a quantified formula 
+      and does not have a scope. However, if our interest is with the 
+      quantified formula (&amp;#8704;x)(Fx) which is a subformula of (&amp;#8704;x)(Fx)&amp;#8835;Gx then it 
+      has scope (Fx).
+    &lt;/p&gt;
+    &lt;p&gt;
+      d) This also is a trick. (&amp;#8707;x)(Fx)&amp;#8743;Gxhas as its main connective the &amp;#8743; so 
+      the formula as a whole is not a quantified formula and does not have a 
+      scope. However, if our interest is with the quantified formula (&amp;#8707;x)(Fx) 
+      which is a subformula of (&amp;#8707;x)(Fx)&amp;#8743;Gx then it has scope (Fx).
+    &lt;/p&gt;
+    &lt;p&gt;
+      e) (Fx&amp;#8743;Gx)
+    &lt;/p&gt;
+    &lt;p&gt;
+      f) (Hy&amp;#8835;(&amp;#8707;x)(Fx&amp;#8743;Gx))
+    &lt;/p&gt;
+    &lt;p&gt;
+      g) ((&amp;#8704;x)((&amp;#8704;z)(Hy&amp;#8743;(Fz&amp;#8743;Gx))))
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Identify the free and bound occurrences of the variable x in following 
+      formulas
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (&amp;#8704;x)(Fx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (Fx&amp;#8835;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) (Fx&amp;#8835; (&amp;#8704;x)(Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) (&amp;#8704;x)(Fx)&amp;#8835;Gx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) (&amp;#8707;x)(Fx)&amp;#8743;Gx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) (&amp;#8707;x)(Fx&amp;#8743;Gx)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      ANSWERS
+    &lt;/p&gt;
+    &lt;p&gt;
+      a) (&amp;#8704;x)(Fxbound)
+    &lt;/p&gt;
+    &lt;p&gt;
+      b) (Fxfree&amp;#8835;Gxfree)
+    &lt;/p&gt;
+    &lt;p&gt;
+      c) (Fxfree&amp;#8835; (&amp;#8704;x)(Gxbound)
+    &lt;/p&gt;
+    &lt;p&gt;
+      d) (&amp;#8704;x)(Fxbound)&amp;#8835;Gxfree
+    &lt;/p&gt;
+    &lt;p&gt;
+      e) (&amp;#8707;x)(Fxbound)&amp;#8743;Gxfree
+    &lt;/p&gt;
+    &lt;p&gt;
+      f) (&amp;#8707;x)(Fxbound&amp;#8743;Gxbound)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Derive the following valid arguments
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      (a) (&amp;#8704;x) (Fx) &amp;#8756; Fa
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (b) (&amp;#8704;x) (Fx) &amp;#8756; Fa&amp;#8743;Fb
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (c) Fc,(&amp;#8704;x) (Fx&amp;#8835;Gx) &amp;#8756; Gc
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (d) Fa,(&amp;#8704;x) (Fx&amp;#8835;Gx), (&amp;#8704;x) (Gx&amp;#8835;Hx) &amp;#8756;Ha
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (e) (&amp;#8704;x) (Fx&amp;#8835;Gx), (&amp;#8704;x) (Gx&amp;#8835;Hx) &amp;#8756;(Fa&amp;#8835;Ha)
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard" id="TInterpretationBoard0">
+    <void id="Rectangle0" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>150</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle0"/>
+    </void>
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

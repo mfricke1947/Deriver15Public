@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 7
+    &lt;/h2&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Some of the following formulas contain &apos;free variables&apos;. Such formulas 
+      do not have truth values as they stand (for their truth depends on which 
+      individuals the free variables represent).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Formulas with free variables gain a truth value once their free 
+      variables are valued. And there is a notation for this. As an example, 
+      the formula Fx has the free variable x and in this form it lacks a truth 
+      value, but say we decide to let x stand for the individual a, using the 
+      notation Fx[a/x], then the formula thus interpreted has a truth value 
+      (it actually is true in this diagram).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Another example, the formula Fx[c/x] is false in the diagram. The 
+      notation [a/x] is read &amp;quot;a for x&amp;quot; so the formula Fx[c/x] is read &amp;quot;F of x 
+      with c for x&amp;quot;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Form a view about the truth of each of the following formulas then ask 
+      whether they are true.&lt;br&gt;&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (Ga&amp;#8744;Fb)&amp;#8743;Ha
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (Ga&amp;#8744;Fb)&amp;#8744;Ha
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Fx[a/x]
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Fx[b/x]
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Fx[c/x]
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) (Gy&amp;#8835;Fb)[a/y]
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) ((Fz&amp;#8743;&amp;#8764;Gz)&amp;#8743;&amp;#8764;Hz)[a/z]
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Form a view about the truth of each of the following formulas then ask 
+      whether they are true.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (&amp;#8707;x)Fx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (&amp;#8707;x)&amp;#8764;Fx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) (&amp;#8707;x)Fx&amp;#8743;(&amp;#8707;x)&amp;#8764;Fx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) (&amp;#8707;x)(Fx&amp;#8743;&amp;#8764;Fx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) (&amp;#8704;x)Fx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) (&amp;#8704;x)(Hx&amp;#8835;Fx) This formula symbolizes &apos;All H&apos;s are F.&apos;; a common 
+      mistake is to symbolize &apos;All H&apos;s are F.&apos; by means of the formula 
+      (&amp;#8704;x)(Hx&amp;#8743;Fx). Hence, see whether you think
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) (&amp;#8704;x)(Hx&amp;#8743;Fx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      is true.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      Having mastered the use of &apos;&amp;#8835;&apos; together with the Universal quantifier &amp;#8704; 
+      beginners often then proceed to make the second common mistake of using 
+      &apos;&amp;#8835;&apos; with the Existential quantifier &amp;#8707;.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) (&amp;#8707;x)(Fx&amp;#8743;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      This formula symbolizes &apos;Some F&apos;s are G&apos; or, alternatively &apos;There is an 
+      F which is a G&apos;. Consider whether it is true. Then go on to try its 
+      mistaken counterpart...
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      i) (&amp;#8707;x)(Fx&amp;#8835;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      j) A formula with the form (&amp;#8704;x)(Hx&amp;#8743;Fx) makes a very strong assertion, 
+      for it says &apos;Whatever x you choose, x is both H and F&apos;.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      Such assertions are hardly ever true. See if you can construct a formula 
+      like (&amp;#8704;x)(Hx&amp;#8743;Fx), or (&amp;#8704;x)(Gx&amp;#8743;Fx), or (&amp;#8704;x)(Hx&amp;#8743;Gx) ... which is true in 
+      the diagram.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      k) On the other hand a formula with the form (&amp;#8707;x)(Fx&amp;#8835;Gx) makes a very 
+      weak assertion, for it says &apos;There is an x such that if x is F then x is 
+      G&apos; and this is the same as &apos;There is an x such that either x is not F or 
+      x is G&apos;. Such assertions are hardly ever false.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      See if you can construct a formula like (&amp;#8707;x)(Fx&amp;#8835;Gx), or (&amp;#8707;x)(Fx&amp;#8835;Hx), or 
+      (&amp;#8707;x)(Hx&amp;#8835;Gx), ... which is false in the diagram.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    Formulas may contain several quantifiers, for example&lt;br&gt;&lt;br&gt;
+
+    &lt;blockquote&gt;
+      l) (&amp;#8704;x)(&amp;#8704;y)((Fx&amp;#8743;Gy)&amp;#8835;&amp;#8764;Hx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      m) (&amp;#8707;x)(&amp;#8707;y)(Fx&amp;#8743;Hy)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 3).
+    &lt;/h3&gt;
+    &lt;p&gt;
+      What we have done so far can be generalized to lists of formulas. List 
+      of formulas are treated as though each of the components are joined 
+      together by conjunction (&apos;&amp;#8743;&apos;)-- hence, a list true iff all components 
+      true, a list false iff at least one component false. Form a view about 
+      the truth of each of the following lists of formulas then ask whether 
+      they are true.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (&amp;#8707;x)Fx, (&amp;#8707;x)Gx,(&amp;#8707;x)Hx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (&amp;#8707;x)&amp;#8764;Fx,(&amp;#8707;x)&amp;#8764;Fx,(&amp;#8707;x)&amp;#8764;Hx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) (&amp;#8707;x)(Fx&amp;#8743;Hx),(&amp;#8707;x)Gx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) (&amp;#8704;x)(Hx&amp;#8835;Fx),(&amp;#8707;x)Hx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) (&amp;#8704;x)(Fx&amp;#8744;&amp;#8764;Fx),(&amp;#8707;y)(Fy&amp;#8743;Gy)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) (&amp;#8707;x)(Fx&amp;#8743;Gx&amp;#8743;Hx),(&amp;#8704;x)(&amp;#8764;(Fx&amp;#8743;Gx&amp;#8743;Hx))
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) (&amp;#8707;x)(Fx&amp;#8835;(Gx&amp;#8744;Hx)),(&amp;#8704;x)((Fx&amp;#8835;&amp;#8764;(Gx&amp;#8743;Hx)))
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) (&amp;#8704;x)(&amp;#8704;y)((Fx&amp;#8743;Gy)&amp;#8835;(Hx&amp;#8743;&amp;#8764;Hy)),(&amp;#8707;x)(&amp;#8707;y)(Fx&amp;#8743;Hy)
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TProperty" id="TProperty0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TProperty0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TProperty0"/>
+      <char>H</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>42</int>
+    </void>
+    <void property="YCoord">
+     <int>86</int>
+    </void>
+    <void id="Rectangle0" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>81</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>74</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle0"/>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>0</int>
+      <int>0</int>
+      <int>255</int>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TProperty" id="TProperty1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TProperty1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TProperty1"/>
+      <char>F</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>18</int>
+    </void>
+    <void property="YCoord">
+     <int>108</int>
+    </void>
+    <void id="Rectangle1" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>88</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>107</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle1"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual0"/>
+      <char>c</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>218</int>
+    </void>
+    <void property="YCoord">
+     <int>162</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual1"/>
+      <char>b</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>134</int>
+    </void>
+    <void property="YCoord">
+     <int>152</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual2">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual2"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual2"/>
+      <char>a</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>58</int>
+    </void>
+    <void property="YCoord">
+     <int>137</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard" id="TInterpretationBoard0">
+    <void id="Rectangle2" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle2"/>
+       <int>150</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle2"/>
+       <int>50</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle2"/>
+    </void>
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

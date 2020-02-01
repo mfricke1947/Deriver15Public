@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      
+    &lt;/h2&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 15.
+    &lt;/h2&gt;
+    &lt;h3&gt;
+      Exercise 1(of 1)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Most experienced logicians are pretty familiar with the following 
+      theorems. Although the theorems are stated in terms of Fx and Gx etc. 
+      most of them hold of most formulas. Derive them
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) &amp;#8756; ((&amp;#8704;x)F)&amp;#8801;F
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (*this is true for any formula F provided that x is not free in F*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) &amp;#8756; ((&amp;#8704;x)Fx)&amp;#8801;((&amp;#8704;y)Fy)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (*change of variables*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8756; ((&amp;#8704;x)(&amp;#8704;y)Fxy)&amp;#8801;((&amp;#8704;y)(&amp;#8704;x)Fxy)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (*permuting universal quantifiers*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) &amp;#8756; ((&amp;#8707;x)(&amp;#8707;y)Fxy)&amp;#8801;((&amp;#8707;y)(&amp;#8707;x)Fxy)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (*permuting existential quantifiers*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) &amp;#8756; ((&amp;#8707;x)(&amp;#8704;y)Fxy)&amp;#8835;((&amp;#8704;y)(&amp;#8707;x)Fxy)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      f) Note that the following is not a theorem, see if you can produce a 
+      counter example
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      &amp;#8756;((&amp;#8704;y)(&amp;#8707;x)Fxy)&amp;#8835;((&amp;#8707;x)(&amp;#8704;y)Fxy)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (*this is the &apos;everything has a cause therefore some (one) thing is the 
+      cause of everything&apos; fallacy*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      g) &amp;#8756; ((&amp;#8707;x)Fx)&amp;#8801;(&amp;#8764;(&amp;#8704;x)&amp;#8764;Fx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (*equivalence of connectives*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      h) &amp;#8756; (&amp;#8764;(&amp;#8707;x)&amp;#8764;Fx)&amp;#8801;((&amp;#8704;x)Fx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (*equivalence of connectives*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      i) &amp;#8756; (&amp;#8704;x)(Fx&amp;#8801;Gx)&amp;#8835;((&amp;#8704;x)Fx&amp;#8801;(&amp;#8704;x)Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (*but j) note that (or prove that)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      &amp;#8756;(&amp;#8704;x)(Fx&amp;#8801;Gx)&amp;#8801;((&amp;#8704;x)Fx&amp;#8801;(&amp;#8704;x)Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      is invalid*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      k) &amp;#8756; (&amp;#8704;x)(Fx&amp;#8801;Gx)&amp;#8835;((&amp;#8707;x)Fx&amp;#8801;(&amp;#8707;x)Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      l) &amp;#8756; (&amp;#8704;x)(Fx&amp;#8835;Gx)&amp;#8835;((&amp;#8704;x)Fx&amp;#8835;(&amp;#8704;x)Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      m) &amp;#8756; (&amp;#8704;x)(Fx&amp;#8835;Gx)&amp;#8835;((&amp;#8707;x)Fx&amp;#8835;(&amp;#8707;x)Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      n) &amp;#8756; ((&amp;#8704;x)Fx&amp;#8835;(&amp;#8704;x)Gx)&amp;#8835;(&amp;#8707;x)(Fx&amp;#8835;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      o) &amp;#8756; (&amp;#8704;x)(Fx&amp;#8743;Gx)&amp;#8801;((&amp;#8704;x)Fx&amp;#8743;(&amp;#8704;x)Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      p) &amp;#8756; (&amp;#8704;x)(Fx&amp;#8744;Gx)&amp;#8801;((&amp;#8704;x)Fx&amp;#8744;(&amp;#8707;x)Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      q) &amp;#8756; ((&amp;#8704;x)Fx&amp;#8744;(&amp;#8704;x)Gx)&amp;#8835;(&amp;#8704;x)(Fx&amp;#8744;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      r) &amp;#8756; ((&amp;#8707;x)Fx&amp;#8744;(&amp;#8707;x)Gx)&amp;#8801;(&amp;#8707;x)(Fx&amp;#8744;Gx)
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard" id="TInterpretationBoard0">
+    <void id="Rectangle0" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>150</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle0"/>
+    </void>
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

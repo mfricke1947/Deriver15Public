@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 9
+    &lt;/h2&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1(of 1)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Derive the following
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      (a) Fa &amp;#8756; (&amp;#8704;x)Fa
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (b) (&amp;#8704;x) (Fx&amp;#8743;Gx) &amp;#8756; (&amp;#8704;x)Fx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (c) (&amp;#8704;x) (Fx&amp;#8743;Gx) &amp;#8756; (&amp;#8704;y)Fy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (d) &amp;#8756; (&amp;#8704;x)Fx&amp;#8801;(&amp;#8704;y)Fy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (e) (&amp;#8704;x) (Fx&amp;#8743;Gx) &amp;#8756; (&amp;#8704;y)Fy&amp;#8743;(&amp;#8704;z)Gz
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (f) &amp;#8756; (&amp;#8704;x) (Fx&amp;#8743;Gx) &amp;#8801; (&amp;#8704;y)Fy&amp;#8743;(&amp;#8704;z)Gz
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (g) &amp;#8756; (&amp;#8704;x) (Fx&amp;#8743;Gx) &amp;#8801; (&amp;#8704;x)Fx&amp;#8743;(&amp;#8704;x)Gx
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard" id="TInterpretationBoard0">
+    <void id="Rectangle0" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>150</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle0"/>
+    </void>
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

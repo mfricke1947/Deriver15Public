@@ -1,0 +1,80 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+     version="2.0">
+  
+
+ 
+  
+  
+  <xsl:output method="xml" omit-xml-declaration="yes"/>
+
+  <xsl:template match="/object">
+    <object> 
+          <xsl:value-of select="replace(.,'TProperty','HELLO')"/>
+    </object> 
+  </xsl:template>
+
+</xsl:stylesheet>
+
+
+<!--
+
+<xsl:stylesheet
+                  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                  version="2.0"> 
+            <xsl:output  method="xml"
+                        indent="yes"
+                        omit-xml-declaration="yes"/> 
+
+            <xsl:template  match="/aaa"> 
+                  <xxx> 
+                        <xsl:value-of  select="replace(.,'o.','#')"/> 
+                  </xxx> 
+                  <yyy> 
+                        <xsl:value-of  select="replace(.,'ho','QQQ','i')"/> 
+                  </yyy> 
+                  <zzz> 
+                        <xsl:value-of  select="replace(.,'HHH','BFF')"/> 
+                  </zzz> 
+            </xsl:template> 
+
+      </xsl:stylesheet>
+
+-->
+
+
+
+
+<!--
+<xsl:template name="string-replace-all">
+    <xsl:param name="text" />
+    <xsl:param name="replace" />
+    <xsl:param name="by" />
+    <xsl:choose>
+      <xsl:when test="contains($text, $replace)">
+        <xsl:value-of select="substring-before($text,$replace)" />
+        <xsl:value-of select="$by" />
+        <xsl:call-template name="string-replace-all">
+          <xsl:with-param name="text"
+          select="substring-after($text,$replace)" />
+          <xsl:with-param name="replace" select="$replace" />
+          <xsl:with-param name="by" select="$by" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$text" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+ 
+Here's how it is called: 
+
+  <xsl:variable name="myVar">
+    <xsl:call-template name="string-replace-all">
+      <xsl:with-param name="text" select="'This is a sample text : {ReplaceMe} and {ReplaceMe}'" />
+      <xsl:with-param name="replace" select="'{ReplaceMe}'" />
+      <xsl:with-param name="by" select="'String.Replace() in XSLT'" />
+    </xsl:call-template>
+  </xsl:variable>
+  
+  -->

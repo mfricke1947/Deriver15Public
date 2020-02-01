@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercises to accompany Predicate Tutorial 2
+    &lt;/h2&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 3):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The program knows of the aforementioned three names.
+    &lt;/p&gt;
+    &lt;p&gt;
+      The program knows of two nouns and has itself adopted the following 
+      conventions regarding them
+    &lt;/p&gt;
+    &lt;div style=&quot;margin-left: 40px&quot;&gt;
+      &lt;div&gt;
+        The noun &apos;nincompoop&apos; is symbolized by &apos;N&apos;.
+      &lt;/div&gt;
+      &lt;div&gt;
+        The noun &apos;philosopher&apos; is symbolized by &apos;P&apos;.
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      choosing &lt;em&gt;To symbols&lt;/em&gt;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting each symbol and 
+      choosing &lt;em&gt;To English&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) If Arthur is a nincompoop then Charles is a philosopher.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) If Arthur is a nincompoop then Charles is a philosopher.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Beryl is a philosopher or Charles is a philosopher.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Beryl is a philosopher or Charles is a philosopher.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Arthur is a philosopher and a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Arthur is a philosopher and a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Charles is neither a philosopher nor a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Charles is neither a philosopher nor a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 3):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      In this exercise you must choose how you are going to symbolize the 
+      nouns. Tell the program how you are going to do it by selecting
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember noun (&amp;lt;english in here&amp;gt;) &amp;lt;capital in here&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      and choosing &lt;em&gt;Do Command&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Then ask the machine to translate back and forward for you.
+    &lt;/p&gt;
+    &lt;p&gt;
+      First tell of your conventions
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember noun (patriot) &amp;lt;capital-here&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      remember noun (Quaker) &amp;lt;capital-here&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      then symbolize
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Charles is a Quaker.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Charles is a Quaker.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) If Arthur is a patriot then Beryl is a Quaker.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) If Arthur is a patriot then Beryl is a Quaker.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 3):
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The program uses the following conventions
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      a = ARTHUR&lt;br&gt;b = BERYL&lt;br&gt;c = CHARLES
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      Sx = STUDIES&lt;br&gt;Tx = THINKS
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      Ax = ANGRY&lt;br&gt;Bx = BOLD&lt;br&gt;Cx = CHEERFUL
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      Nx = NINCOMPOOP&lt;br&gt;Px = PHILOSOPHER
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      choosing &lt;em&gt;To symbols&lt;/em&gt;. When you have symbolized the propositions, 
+      ask the program to translate them back by selecting each symbol and 
+      choosing &lt;em&gt;To English&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize :
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Arthur is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Arthur is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Arthur is a cheerful nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Arthur is a cheerful nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Arthur is a cheerful angry nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Arthur is a cheerful angry nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Arthur is a nincompoop that studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Arthur is a nincompoop that studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) Arthur is a cheerful nincompoop that studies and thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Arthur is a cheerful nincompoop that studies and thinks.
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

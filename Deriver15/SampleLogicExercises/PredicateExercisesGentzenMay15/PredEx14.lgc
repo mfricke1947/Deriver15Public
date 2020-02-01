@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      
+    &lt;/h2&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 14
+    &lt;/h2&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1(of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The rule Universal Instantiation has the restriction on it that the 
+      proposed instantiation should not result in capturing (in the 
+      terminology... &lt;em&gt;the variable of instantiation must be free for the 
+      term of instantiation in the scope&lt;/em&gt;).
+    &lt;/p&gt;
+    &lt;p&gt;
+      So, for example,
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)(&amp;#8707;y)Rxy &amp;#8756; (&amp;#8707;y)Ray
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)(&amp;#8707;y)Rxy &amp;#8756; (&amp;#8707;y)Rby
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)(&amp;#8707;y)Rxy &amp;#8756; (&amp;#8707;y)Rxy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)(&amp;#8707;y)Rxy &amp;#8756; (&amp;#8707;y)Rzy
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      are all valid arguments (and may be proved so by one use of Universal 
+      Instantiation). Derive them.
+    &lt;/p&gt;
+    &lt;p&gt;
+      But
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)(&amp;#8707;y)Rxy &amp;#8756; (&amp;#8707;y)Ryy
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      is invalid. Look at the interpretation of the diagram and note that all 
+      the premises are true and the conclusion false at one and the same time. 
+      This argument cannot be proved to be valid (for it is not). But the 
+      unwary might think that they can prove it by one use of Universal 
+      Instantiation which plugs in y (but this is the forbidden case where the 
+      y gets captured by the other quantifier).
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The rule Universal Generalization has the restriction on it that &lt;em&gt;the 
+      variable of quantification must not be free in the assumptions of the 
+      line on which it is used&lt;/em&gt;. The reason for this is that otherwise 
+      derivation of some invalid arguments would be possible.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Let us consider two arguments with free variables in the standing 
+      assumptions&lt;br&gt;&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Fx &amp;#8756; (&amp;#8704;y)Fx
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and look at this semantically. Is is possible for all the premises to be 
+      true and the conclusion false at one and the same time?
+    &lt;/p&gt;
+    &lt;p&gt;
+      Take the interpretation shown in the drawing
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      Universe= { a,b }
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      F= { a }
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      we cannot discuss the truth of Fx until we value its free variable and 
+      since we want it to be true we would try Fx[a/x] {ask for its truth} but 
+      under this valuation (&amp;#8704;y)Fx[a/x] is true also {ask}.
+    &lt;/p&gt;
+    &lt;p&gt;
+      We might now suspect that the argument is valid, and indeed we can 
+      derive it (try it). Move on now to
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Fx &amp;#8756; (&amp;#8704;x)Fx
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Notice this time that the variable of quantification occurs free in the 
+      assumptions.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Look at this semantically. Is is possible for all the premises to be 
+      true and the conclusion false at one and the same time?
+    &lt;/p&gt;
+    &lt;p&gt;
+      Take the interpretation shown in the drawing
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      Universe= { a,b }
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      F= { a }
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      we cannot discuss the truth of Fx until we value its free variable and 
+      since we want it to be true we would try Fx[a/x] {ask for its truth} but 
+      under this valuation (&amp;#8704;x)Fx[a/x] is false {ask}.
+    &lt;/p&gt;
+    &lt;p&gt;
+      This means that the argument is invalid! The interpretation andvaluation 
+      prove it to be so. (Try doing a derivation if you wish.)
+    &lt;/p&gt;
+    &lt;p&gt;
+      Arguments with free variables in their standing assumptions are 
+      relatively rare. But the rule for Existential Instantiation nearly 
+      always introduces a free variable into the current assumptions, because 
+      you take its scope as a new assumption and this will nearly always 
+      contain the variable that was used with the Existential Quantifier. So, 
+      if you start an Existential Instantiation and then use Universal 
+      Generalization, be careful.
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3(of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The rule Existential Generalization has the restriction on it that no 
+      occurrence of the term that you are generalizing on is bound by another 
+      quantifier. In other words, working back from the result back 
+      substitution should not result in capturing (in the terminology... the 
+      variable of generalization must be free for the term of generalization 
+      in the scope).
+    &lt;/p&gt;
+    &lt;p&gt;
+      So, for example,
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)Sxa &amp;#8756; (&amp;#8707;y)(&amp;#8704;x)Sxy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)Sxb &amp;#8756; (&amp;#8707;y)(&amp;#8704;x)Sxy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)Sxy &amp;#8756; (&amp;#8707;y)(&amp;#8704;x)Sxy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)Sxz &amp;#8756; (&amp;#8707;y)(&amp;#8704;x)Sxy
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      are all valid arguments (and may be proved so by one use of Existential 
+      Generalization). Derive them.
+    &lt;/p&gt;
+    &lt;p&gt;
+      But
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      (&amp;#8704;x)Sxx &amp;#8756; (&amp;#8707;y)(&amp;#8704;x)Sxy
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      is invalid. Look at the interpretation of the diagram and note that all 
+      the premises are true and the conclusion false at one and the same time. 
+      This argument cannot be proved to be valid (for it is not). But the 
+      unwary might think that they can prove it by one use of Existential 
+      Generalization which generalizes on one occurrence of x (but this is the 
+      forbidden case where the occurrence is already quantified by another 
+      quantifier-- back substituting the x leads to it getting captured by the 
+      other quantifier).
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 4(of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The rule Existential Instantiation has on it two restrictions.
+    &lt;/p&gt;
+    &lt;p&gt;
+      First the variable of instantiation must not occur free in the proposed 
+      target instantiation. Consider the following argument.&lt;br&gt;&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      (&amp;#8707;x)Fx&amp;#8756;Fx
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      It is invalid. To see this we have to value the free x in the 
+      conclusion. Thus&lt;br&gt;&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      (&amp;#8707;x)Fx&amp;#8756;Fx[b/x]
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      In the diagram, this has true premises and a false conclusion (check 
+      it). The first restriction on the EI rule stops invalid arguments, like 
+      the example, from being derived. Roughly speaking what is going on here 
+      is that the premise tells us at least one thing is F, and the conclusion 
+      tells us that x is F, but x is a free variable which might name anything 
+      in the Universe, and there are valuations in which at least one thing is 
+      F but x does not name any of them.
+    &lt;/p&gt;
+    &lt;p&gt;
+      The second restriction on the EI rule is that the variable of 
+      instantiation must not occur free in the assumptions of the intended 
+      target.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Consider the argument.&lt;br&gt;&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      Gx, (&amp;#8707;x)Fx&amp;#8756;(&amp;#8707;x)(Fx&amp;#8743;Gx)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      It is invalid. To see this we have to value the free x in the premises. 
+      Thus&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      Gx[b/x], (&amp;#8707;x)Fx&amp;#8756;(&amp;#8707;x)(Fx&amp;#8743;Gx)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      In the diagram, this has true premises and a false conclusion(check it).
+    &lt;/p&gt;
+    &lt;p&gt;
+      The second restriction on the EI rule stops invalid arguments, like the 
+      example, from being derived. Roughly speaking what is going on here is 
+      that one premise tells us at least one thing is F, and the other premise 
+      tells us that x is G, but x is a free variable which might name anything 
+      in the Universe, and there are valuations in which at least one thing is 
+      F but the x which is G does not name any of them (sure there is an F, 
+      sure there is a G, but there is no guarantee that something is both F 
+      and G).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TProperty" id="TProperty0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TProperty0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TProperty0"/>
+      <char>G</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>281</int>
+    </void>
+    <void property="YCoord">
+     <int>145</int>
+    </void>
+    <void id="Rectangle0" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>118</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>84</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle0"/>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>0</int>
+      <int>0</int>
+      <int>255</int>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TProperty" id="TProperty1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TProperty1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TProperty1"/>
+      <char>F</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>81</int>
+    </void>
+    <void property="YCoord">
+     <int>140</int>
+    </void>
+    <void id="Rectangle1" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>103</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>67</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle1"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual0"/>
+      <char>b</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>315</int>
+    </void>
+    <void property="YCoord">
+     <int>174</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TIndividual" id="TIndividual1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TIndividual1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TIndividual1"/>
+      <char>a</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>107</int>
+    </void>
+    <void property="YCoord">
+     <int>169</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard" id="TInterpretationBoard0">
+    <void id="Rectangle2" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle2"/>
+       <int>150</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle2"/>
+       <int>70</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle2"/>
+    </void>
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TRelation" id="TRelation0">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TRelation0"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TRelation0"/>
+      <char>R</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>115</int>
+    </void>
+    <void property="YCoord">
+     <int>176</int>
+    </void>
+    <void id="Rectangle3" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle3"/>
+       <int>207</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle3"/>
+       <int>8</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle3"/>
+    </void>
+    <void id="Point0" property="from">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point0"/>
+       <int>115</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point0"/>
+       <int>176</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point1" property="to">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point1"/>
+       <int>322</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point1"/>
+       <int>184</int>
+      </void>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TRelation" id="TRelation1">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TRelation1"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TRelation1"/>
+      <char>R</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>116</int>
+    </void>
+    <void property="YCoord">
+     <int>172</int>
+    </void>
+    <void id="Rectangle4" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle4"/>
+       <int>209</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle4"/>
+       <int>4</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle4"/>
+    </void>
+    <void id="Point2" property="from">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point2"/>
+       <int>325</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point2"/>
+       <int>176</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point3" property="to">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point3"/>
+       <int>116</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point3"/>
+       <int>172</int>
+      </void>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TRelation" id="TRelation2">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TRelation2"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TRelation2"/>
+      <char>S</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>112</int>
+    </void>
+    <void property="YCoord">
+     <int>175</int>
+    </void>
+    <void id="Rectangle5" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle5"/>
+       <int>2</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle5"/>
+       <int>1</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle5"/>
+    </void>
+    <void id="Point4" property="from">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point4"/>
+       <int>112</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point4"/>
+       <int>175</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point5" property="to">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point5"/>
+       <int>114</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point5"/>
+       <int>176</int>
+      </void>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="us.softoption.interpretation.TRelation" id="TRelation3">
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>m</string>
+     <void method="set">
+      <object idref="TRelation3"/>
+      <boolean>false</boolean>
+     </void>
+    </void>
+    <void class="us.softoption.interpretation.TShape" method="getField">
+     <string>n</string>
+     <void method="set">
+      <object idref="TRelation3"/>
+      <char>S</char>
+     </void>
+    </void>
+    <void property="XCoord">
+     <int>322</int>
+    </void>
+    <void property="YCoord">
+     <int>178</int>
+    </void>
+    <void id="Rectangle6" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle6"/>
+       <int>2</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle6"/>
+       <int>3</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle6"/>
+    </void>
+    <void id="Point6" property="from">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point6"/>
+       <int>324</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point6"/>
+       <int>181</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point7" property="to">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point7"/>
+       <int>322</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point7"/>
+       <int>178</int>
+      </void>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

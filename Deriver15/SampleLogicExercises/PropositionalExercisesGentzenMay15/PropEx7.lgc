@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h2&gt;
+      Exercises to accompany tutorial 7.
+    &lt;/h2&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      After starting the derivation switch on Tactics (under the &lt;em&gt;Wizard&lt;/em&gt; 
+      Menu in the Proof Panel) and derive the following. Start by selecting 
+      the Rule &amp;#8835;I to lay out the derivation properly. Notice the form of each 
+      derivation-- the &amp;lt;if-clause&amp;gt; gets taken as a new assumption, from it the 
+      &amp;lt;then-clause&amp;gt; is derived, and the new assumption is dropped to conclude
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      &amp;lt;if-clause&amp;gt; &amp;#8835; &amp;lt;then-clause&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (F&amp;#8835;G), (G&amp;#8835;H) &amp;#8756; (F&amp;#8835;H)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (F&amp;#8835;(G&amp;#8835;H)), (F&amp;#8835;G) &amp;#8756; (F&amp;#8835;H)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) (F&amp;#8835;G) &amp;#8756; (F&amp;#8835;(F&amp;#8743;G))
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Now try to do the same derivations without using Tactics. To do each of 
+      them the first move is to assume the &amp;lt;if-clause&amp;gt; and in each case here 
+      that is F. To make an assumption you choose Assumption off the &lt;em&gt;Rules &lt;/em&gt;Menu. 
+      When you have derived the &amp;lt;then-clause&amp;gt; select it and click &amp;#8835;I. (*There 
+      are some technical terms that appear here: the rule of Assumption is 
+      called &apos;TI&apos; (short for Trival Inference), and the new assumption is 
+      called an &apos;Antecedent&apos;*)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (F&amp;#8835;G), (G&amp;#8835;H) &amp;#8756; (F&amp;#8835;H)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      (*this requires you to assume F and try to derive H as the last line of 
+      a subproof*)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) (F&amp;#8835;(G&amp;#8835;H)), (F&amp;#8835;G) &amp;#8756; (F&amp;#8835;H)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      (*this requires you to assume F and try to derive H as the last line of 
+      a subproof*)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) (F&amp;#8835;G) &amp;#8756; (F&amp;#8835;(F&amp;#8743;G))
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      (*this requires you to assume F and try to derive F&amp;#8743;G as the last line 
+      of a subproof*)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      There are a number of important theorems which can be expressed as 
+      equivalences-- here we consider slightly weakened versions of them which 
+      are conditionals.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Derive (with or without Tactics)
+    &lt;/p&gt;
+    &lt;p&gt;
+      Commutation
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) &amp;#8756; (F&amp;#8743;G)&amp;#8835;(G&amp;#8743;F)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Double Negation
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) &amp;#8756; &amp;#8764;&amp;#8764;F&amp;#8835;F
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Exportation
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8756; (F&amp;#8835;(G&amp;#8835;H))&amp;#8835;((F&amp;#8743;G)&amp;#8835;H)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) &amp;#8756; ((F&amp;#8743;G)&amp;#8835;H)&amp;#8835;(F&amp;#8835;(G&amp;#8835;H))
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    &lt;hr style=&quot;width: 100%; height: 2px&quot;&gt;
+    
+
+    &lt;p&gt;
+      &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26">
+         <void index="0">
+          <boolean>true</boolean>
+         </void>
+         <void index="2">
+          <boolean>true</boolean>
+         </void>
+         <void index="3">
+          <boolean>true</boolean>
+         </void>
+        </array>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>445</int>
+  </void>
+  <void property="propLevel">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>

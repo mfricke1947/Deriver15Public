@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercise to accompany Tutorial 4.
+    &lt;/h2&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 3) (original)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Symbolize the following arguments, using the program&apos;s standard 
+      conventions. (Answers below-- you can ask the program to do it, step at 
+      a time, if you wish.)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      a)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      If we run a war then we reduce unemployment.&lt;br&gt;We run a war.&lt;br&gt;Therefore&lt;br&gt;We 
+      reduce unemployment.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      b)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      We increase health costs and we reduce unemployment.&lt;br&gt;Therefore&lt;br&gt;We 
+      reduce unemployment or we run a war.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      c)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      If we run a war, then we increase health costs .&lt;br&gt;If we increase 
+      health costs, we reduce unemployment .&lt;br&gt;Therefore&lt;br&gt;If we run a war 
+      then we reduce unemployment.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 3) (copy)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Symbolize the following arguments, using the program&apos;s standard 
+      conventions. (Answers below-- you can ask the program to do it, step at 
+      a time, if you wish.)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      a)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      If we run a war then we reduce unemployment.&lt;br&gt;We run a war.&lt;br&gt;Therefore&lt;br&gt;We 
+      reduce unemployment.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      b)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      We increase health costs and we reduce unemployment.&lt;br&gt;Therefore&lt;br&gt;We 
+      reduce unemployment or we run a war.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      c)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      If we run a war, then we increase health costs .&lt;br&gt;If we increase 
+      health costs, we reduce unemployment .&lt;br&gt;Therefore&lt;br&gt;If we run a war 
+      then we reduce unemployment.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Exercise 1 (of 3) (answers)
+    &lt;/p&gt;
+    &lt;p&gt;
+      a)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      W&amp;#8835;U,&lt;br&gt;W&lt;br&gt;&amp;#8756;&lt;br&gt;U
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      b)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      H&amp;#8743;U&lt;br&gt;&amp;#8756;&lt;br&gt;U&amp;#8744;W
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      c)
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      W&amp;#8835;H,&lt;br&gt;H&amp;#8835;U&lt;br&gt;&amp;#8756;&lt;br&gt;W&amp;#8835;U
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Sometimes English sentences are ambiguous. Try to symbolize the 
+      following, identifying ambiguities. Ask the program to do it.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) We run a war and we increase health costs or we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) We run a war and we increase health costs or we reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) Either we run a war or we increase health costs or we reduce 
+        unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        (*The program finds rather more ambiguities in this than there really 
+        are.*)
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) Either we run a war or we increase health costs or we reduce 
+        unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) It is not the case that we run a war and we increase health costs.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) It is not the case that we run a war and we increase health costs.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      When confronted with ambiguities, you just have to make the best you can 
+      with them. Often there is an obvious preferred meaning; otherwise 
+      courtesy suggests that you try to give an argument meaning that will 
+      make it valid. If ambiguities remain unresolved, just list them all.
+    &lt;/p&gt;
+    &lt;p&gt;
+      English uses devices like commas and brackets to suggest intended 
+      meaning.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 3) (Original) (Optional)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Usually when we write arguments out we write the premises in a list 
+      separated by commas, then a &apos;&amp;#8756;&apos; and then the conclusion. In the 
+      following exercise all the arguments are actually invalid.
+    &lt;/p&gt;
+    &lt;p&gt;
+      See how you get on searching for a counter-example. What you have to do 
+      is to assign truth values to the atomic propositions, so that all the 
+      premises in an argument come out to be true and the conclusion false. 
+      Make your assignments and ask the program about the truth value of the 
+      premises and conclusion. If you are struggling with this select the 
+      accompanying list of premises with the negation of the conclusion and 
+      click &apos;Satisfiable?&apos; under the Semantics Menu-- the program will tell 
+      you which atomic propositions have to be true.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      (*The program assumes that to start with all atomic proposition are 
+      assigned false. So you really only need tell it about the ones you want 
+      to be true. Similarly it will tell you only about the true ones. When 
+      the program tells you about satisfiability there will be some extra 
+      information that will be explained later in the course.*)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      a) Q, P&amp;#8835;Q &amp;#8756; P
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign true &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign false &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      a) satisfiability test list Q, P&amp;#8835;Q,&amp;#8764;P
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      b) F&amp;#8744;G &amp;#8756; F&amp;#8743;G
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign true &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign false &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      b) satisfiability test list F&amp;#8744;G,&amp;#8764;(F&amp;#8743;G)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      c) &amp;#8764;A, A &amp;#8835; B, B &amp;#8835;C &amp;#8756; &amp;#8764;C
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign true &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign false &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      c) satisfiability test list &amp;#8764;A, A &amp;#8835; B, B &amp;#8835;C, &amp;#8764;(&amp;#8764;C)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 3) (Copy) (Optional)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Usually when we write arguments out we write the premises in a list 
+      separated by commas, then a &apos;&amp;#8756;&apos; and then the conclusion. In the 
+      following exercise all the arguments are actually invalid.
+    &lt;/p&gt;
+    &lt;p&gt;
+      See how you get on searching for a counter-example. What you have to do 
+      is to assign truth values to the atomic propositions, so that all the 
+      premises in an argument come out to be true and the conclusion false. 
+      Make your assignments and ask the program about the truth value of the 
+      premises and conclusion. If you are struggling with this select the 
+      accompanying list of premises with the negation of the conclusion and 
+      click &apos;Satisfiable?&apos; under the Semantics Menu-- the program will tell 
+      you which atomic propositions have to be true.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      (*The program assumes that to start with all atomic proposition are 
+      assigned false. So you really only need tell it about the ones you want 
+      to be true. Similarly it will tell you only about the true ones. When 
+      the program tells you about satisfiability there will be some extra 
+      information that will be explained later in the course.*)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      a) Q, P&amp;#8835;Q &amp;#8756; P
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign true &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign false &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      a) satisfiability test list Q, P&amp;#8835;Q,&amp;#8764;P
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      b) F&amp;#8744;G &amp;#8756; F&amp;#8743;G
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign true &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign false &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      b) satisfiability test list F&amp;#8744;G,&amp;#8764;(F&amp;#8743;G)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      c) &amp;#8764;A, A &amp;#8835; B, B &amp;#8835;C &amp;#8756; &amp;#8764;C
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign true &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-left: 40px&quot;&gt;
+      assign false &amp;lt;atomic proposition(s)&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      c) satisfiability test list &amp;#8764;A, A &amp;#8835; B, B &amp;#8835;C, &amp;#8764;(&amp;#8764;C)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26">
+         <void index="0">
+          <boolean>true</boolean>
+         </void>
+         <void index="2">
+          <boolean>true</boolean>
+         </void>
+         <void index="3">
+          <boolean>true</boolean>
+         </void>
+        </array>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>445</int>
+  </void>
+  <void property="propLevel">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>

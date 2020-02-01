@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercises to accompany Tutorial 3
+    &lt;/h2&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Say we use True as shorthand for a true proposition, and False as 
+      shorthand for a false proposition, form a view as to the truth-value of 
+      the following propositions. Select the formula and click &apos;True?&apos; under 
+      the Semantics Menu to find out what the program thinks. Notice that when 
+      the program writes to you what it writes is selected-- just press the 
+      delete key and the message will go.
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) True &amp;#8743; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) True &amp;#8835; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) &amp;#8764; True
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) False &amp;#8744; True
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) False &amp;#8801; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        f) True &amp;#8743;True
+      &lt;/p&gt;
+      &lt;p&gt;
+        g) True &amp;#8835; True
+      &lt;/p&gt;
+      &lt;p&gt;
+        h) &amp;#8764; True
+      &lt;/p&gt;
+      &lt;p&gt;
+        i) True &amp;#8744; True
+      &lt;/p&gt;
+      &lt;p&gt;
+        j) False &amp;#8801; True
+      &lt;/p&gt;
+      &lt;p&gt;
+        k) True &amp;#8743; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        l) True &amp;#8835; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        m) True &amp;#8744; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        n) True &amp;#8801; True
+      &lt;/p&gt;
+      &lt;p&gt;
+        o) True &amp;#8743; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        p) True &amp;#8835; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        q) False &amp;#8744; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        r) True &amp;#8801; False
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Form a view as to the truth-value of the following propositions. Select 
+      the formula and click &apos;True?&apos; to find out what the program thinks. If 
+      your view is different from the programs try working your way out from 
+      the inside. Select one of the sub-formulas and click True?, then remove 
+      the sub-formula leaving the answer that you get instead (that will be 
+      True or False)-- keep doing this until the formula as a whole is 
+      exhausted.
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) (True &amp;#8744; False) &amp;#8835; (False &amp;#8743; True)
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) (True &amp;#8744; False) &amp;#8835; (False &amp;#8743; True)
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) (True &amp;#8801; False) &amp;#8743; (False &amp;#8743; True)
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) (True &amp;#8801; False) &amp;#8743; (False &amp;#8743; True)
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) (True &amp;#8744; True) &amp;#8835; (False &amp;#8743; False)
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) (True &amp;#8744; True) &amp;#8835; (False &amp;#8743; False)
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) (&amp;#8764;True) &amp;#8835; (True &amp;#8743; True)
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) (&amp;#8764;True) &amp;#8835; (True &amp;#8743; True)
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) (True &amp;#8744; False) &amp;#8744; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) (True &amp;#8744; False) &amp;#8744; False
+      &lt;/p&gt;
+      &lt;p&gt;
+        &amp;#160;
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The program knows about the truth and falsity of atomic propositions. 
+      When it starts, it assumes that all atomic propositions are false. You 
+      can ask it which propositions are true under the Semantics Menu. Note 
+      that when the program writes to you it will do so to the place it 
+      considers most appropriate and this will usually be immediately after 
+      any selection or the insertion point. You may be wise to decide where 
+      you want the answer to come and click on the text there (immediately 
+      before an exercise would be a good place). Now try it asking about true 
+      propositions under the Semantics Menu.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Assume for this exercise that all atomic propositions are false.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Form a view on the truth of the following compound propositions. The 
+      program will go through it step by step for you, if you select the 
+      subformula you are interested in and click &apos;True?&apos;. Work your way out 
+      from the atomic to the more and more complex, as in the previous 
+      exercises.
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) &amp;#8764;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) &amp;#8764;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) &amp;#8764;&amp;#8764;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) &amp;#8764;&amp;#8764;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) A &amp;#8744; G
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) A &amp;#8744; G
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) A &amp;#8743; &amp;#8764;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) A &amp;#8743; &amp;#8764;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) (&amp;#8764;G)&amp;#8835;F
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) (&amp;#8764;G)&amp;#8835;F
+      &lt;/p&gt;
+      &lt;p&gt;
+        f) B &amp;#8801; K
+      &lt;/p&gt;
+      &lt;p&gt;
+        f) B &amp;#8801; K
+      &lt;/p&gt;
+      &lt;p&gt;
+        &amp;#160;
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 4 (of 4)
+    &lt;/h3&gt;
+    &lt;i&gt;(Original, do not work on this, there is a copy for you to &apos;deface&apos; a 
+    little further down.)&lt;/i&gt;
+
+    &lt;p&gt;
+      You can ask the program to consider certain atomic propositions to be 
+      true by selecting
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      assign true &amp;lt;atomic propositions&amp;gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and clicking Do Command.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Try selecting
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      assign true A C D
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and clicking Do Command, and then ask for Current True Propositions 
+      under the Semantics menu. Then select
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      assign false C
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and click Do Command, and then ask for Current True Propositions under 
+      the Help menu.
+    &lt;/p&gt;
+    &lt;p&gt;
+      You should now have A and D as true atomic propositions, and all other 
+      atomic propositions are taken to be false.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Form a view on the truth of the following compound propositions. The 
+      program will go through it step by step for you, if you select the 
+      subformula you are interested in and click &apos;True?&apos;. Work your way out 
+      from the atomic to the more and more complex, as in the previous 
+      exercises.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) &amp;#8764;A
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) &amp;#8764;&amp;#8764;D
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) A &amp;#8744; G
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) A &amp;#8743; &amp;#8764;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) (&amp;#8764;G)&amp;#8835;A
+      &lt;/p&gt;
+      &lt;p&gt;
+        f) A &amp;#8801; D
+      &lt;/p&gt;
+      &lt;p&gt;
+        g) &amp;#8764;(A&amp;#8743;T)
+      &lt;/p&gt;
+      &lt;p&gt;
+        h) D&amp;#8743;(&amp;#8764;&amp;#8764;D)
+      &lt;/p&gt;
+      &lt;p&gt;
+        i) (A&amp;#8801;A) &amp;#8743;(S&amp;#8801;S)
+      &lt;/p&gt;
+      &lt;p&gt;
+        j) A &amp;#8744; (B&amp;#8744;C)
+      &lt;/p&gt;
+      &lt;p&gt;
+        k) (A &amp;#8743; B) &amp;#8744;C
+      &lt;/p&gt;
+      &lt;p&gt;
+        l) (A &amp;#8835; A)&amp;#8835;(B&amp;#8835;B)
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 4 (of 4)
+    &lt;/h3&gt;
+    &lt;i&gt;(copy, work on this one.)&lt;/i&gt;
+
+    &lt;p&gt;
+      You can ask the program to consider certain atomic propositions to be 
+      true by selecting
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      assign true &amp;lt;atomic propositions&amp;gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and clicking Do Command.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Try selecting
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      assign true A C D
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and clicking Do Command, and then ask for Current True Propositions 
+      under the Semantics menu. Then select
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      assign false C
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and click Do Command, and then ask for Current True Propositions under 
+      the Help menu.
+    &lt;/p&gt;
+    &lt;p&gt;
+      You should now have A and D as true atomic propositions, and all other 
+      atomic propositions are taken to be false.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Form a view on the truth of the following compound propositions. The 
+      program will go through it step by step for you, if you select the 
+      subformula you are interested in and click &apos;True?&apos;. Work your way out 
+      from the atomic to the more and more complex, as in the previous 
+      exercises.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) &amp;#8764;A
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) &amp;#8764;&amp;#8764;D
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) A &amp;#8744; G
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) A &amp;#8743; &amp;#8764;G
+      &lt;/p&gt;
+      &lt;p&gt;
+        e) (&amp;#8764;G)&amp;#8835;A
+      &lt;/p&gt;
+      &lt;p&gt;
+        f) A &amp;#8801; D
+      &lt;/p&gt;
+      &lt;p&gt;
+        g) &amp;#8764;(A&amp;#8743;T)
+      &lt;/p&gt;
+      &lt;p&gt;
+        h) D&amp;#8743;(&amp;#8764;&amp;#8764;D)
+      &lt;/p&gt;
+      &lt;p&gt;
+        i) (A&amp;#8801;A) &amp;#8743;(S&amp;#8801;S)
+      &lt;/p&gt;
+      &lt;p&gt;
+        j) A &amp;#8744; (B&amp;#8744;C)
+      &lt;/p&gt;
+      &lt;p&gt;
+        k) (A &amp;#8743; B) &amp;#8744;C
+      &lt;/p&gt;
+      &lt;p&gt;
+        l) (A &amp;#8835; A)&amp;#8835;(B&amp;#8835;B
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>445</int>
+  </void>
+  <void property="propLevel">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>

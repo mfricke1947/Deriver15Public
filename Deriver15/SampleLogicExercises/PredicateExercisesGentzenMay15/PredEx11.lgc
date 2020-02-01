@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 11.
+    &lt;/h2&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      It is probably easier to learn EI using &lt;em&gt;Tactics&lt;/em&gt;. After you 
+      start each derivation,switch &lt;em&gt;Tactics&lt;/em&gt; on, select the 
+      existentially quantified formula, and click EI.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Derive the following&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) (&amp;#8707;x)(Fa) &amp;#8756; Fa
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (&amp;#8707;x) (Fx&amp;#8743;Gx) &amp;#8756; (&amp;#8707;x)(Fx )
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) (&amp;#8707;x) (Fx&amp;#8743;Gx) &amp;#8756; (&amp;#8707;y)(Gy)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) (&amp;#8707;x)(Fx)&amp;#8756; (&amp;#8707;y)(Fy)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) (&amp;#8707;x)(Fx&amp;#8743;Gx) &amp;#8756; (&amp;#8707;y)(Fy)&amp;#8743;(&amp;#8707;z)(Gz)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Repeat the derivations of Exercise 1 without using Tactics.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 3)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Each of following derivations will use Existential Instantiation at some 
+      stage.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Derive
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) &amp;#8756; (&amp;#8707;x)Fx&amp;#8801;(&amp;#8707;y)Fy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) (&amp;#8704;x)Fx,(&amp;#8707;x)~Fx&amp;#8756;G
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8756; (&amp;#8707;x) (Fx&amp;#8744;Gx) &amp;#8801; (&amp;#8707;y)Fy&amp;#8744;(&amp;#8707;z)Gz
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) (&amp;#8707;x)(Fx&amp;#8744;Gx),(&amp;#8704;x)(Fx&amp;#8835;Hx),(&amp;#8704;x)(Gx&amp;#8835;Hx)&amp;#8756;(&amp;#8707;x)Hx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) ~(&amp;#8707;x)(Fx&amp;#8743;~Gx),~(&amp;#8707;x)(Gx&amp;#8743;~Hx)&amp;#8756;(&amp;#8704;x)(Fx&amp;#8835;Hx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) ~(&amp;#8707;x)Gx,(&amp;#8704;x)(Fx&amp;#8835;Gx)&amp;#8756;(&amp;#8704;x)(Fx&amp;#8835;Hx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) (&amp;#8707;x)Fx&amp;#8744;(&amp;#8707;x)Gx,(&amp;#8704;x)((Fx&amp;#8744;Gx)&amp;#8835;Hx)&amp;#8756;(&amp;#8707;x)Hx
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

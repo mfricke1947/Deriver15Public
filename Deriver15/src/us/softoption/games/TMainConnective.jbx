@@ -1,0 +1,22 @@
+[PropertyInfo]
+borderLayout1,java.awt.BorderLayout,false,false, , ,false,<default>
+borderLayout2,java.awt.BorderLayout,false,false, , ,false,<default>
+csm,javax.swing.ListSelectionModel,false,false, , ,false,<default>
+FAnswered,boolean,false,false, , ,false,<default>
+FCorrect,int,false,false, , ,false,<default>
+feedback,javax.swing.JLabel,false,false, , ,false,<default>
+FIndex,int,false,false, , ,false,<default>
+FLastWrong,boolean,false,false, , ,false,<default>
+FNextThread,boolean,false,false, , ,false,<default>
+FParser,parser.TParser,false,false, , ,false,<default>
+FRandom,parser.TFormula,false,false, , ,false,<default>
+FTotal,int,false,false, , ,false,<default>
+JLabel1,javax.swing.JLabel,false,false, , ,false,<default>
+JLabel2,javax.swing.JLabel,false,false, , ,false,<default>
+JPanel1,javax.swing.JPanel,false,false, , ,false,<default>
+jt,javax.swing.JTable,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

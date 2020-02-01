@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 6
+    &lt;/h2&gt;
+    &lt;p&gt;
+      Remember, the program uses the following conventions
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a = ARTHUR&lt;br&gt;b = BERYL&lt;br&gt;c = CHARLES&lt;br&gt;Sx = STUDIES&lt;br&gt;Tx = THINKS&lt;br&gt;Ax 
+      = ANGRY&lt;br&gt;Bx = BOLD&lt;br&gt;Cx = CHEERFUL&lt;br&gt;Nx = NINCOMPOOP&lt;br&gt;Px = 
+      PHILOSOPHER
+    &lt;/blockquote&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 2).
+    &lt;/h3&gt;
+    &lt;p&gt;
+      The logical systems we use have lower case letters from the end of the 
+      alphabet as variables. To symbolize English one step at a time (as we 
+      have been doing so far), we need English names for these variables-- 
+      English capitals are used for this, &apos;X&apos; is used for &apos;x&apos; and so on...
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) X studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) X studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Y thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Y thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) It is not the case that Z is bold.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) It is not the case that Z is bold.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Z is a cheerful nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Z is a cheerful nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 2).
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Symbolize
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Everything thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      a) Everything thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) Something thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Something thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      c) Nothing thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Nothing thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) Everything is cheerful.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Everything is cheerful.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      e) Something is cheerful and bold.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Something is cheerful and bold.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      f) Every philosopher is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) Every philosopher is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      g) Every nincompoop is a philosopher.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) Every nincompoop is a philosopher.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      h) Some philosopher is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) Some philosopher is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      i) Some bold philosopher is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      i) Some bold philosopher is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      j) Every cheerful philosopher is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      j) Every cheerful philosopher is a nincompoop.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      k) No nincompoop is a philosopher.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      k) No nincompoop is a philosopher.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      l) Everything that thinks studies.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      l) Everything that thinks studies.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      m) Something that studies thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      m) Something that studies thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      n) Nothing that studies thinks.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      n) Nothing that studies thinks.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      o) Everything that both studies and thinks is cheerful.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      o) Everything that both studies and thinks is cheerful.
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      p) Nothing that thinks is either angry or cheerful.
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      p) Nothing that thinks is either angry or cheerful.
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard" id="TInterpretationBoard0">
+    <void id="Rectangle0" property="boundsRect">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle0"/>
+       <int>150</int>
+      </void>
+     </void>
+    </void>
+    <void property="boundsRect">
+     <object idref="Rectangle0"/>
+    </void>
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

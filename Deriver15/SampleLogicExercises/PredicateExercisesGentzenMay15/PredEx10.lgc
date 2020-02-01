@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      
+    &lt;/h2&gt;
+    &lt;h2&gt;
+      Exercise to accompany Predicate Tutorial 10
+    &lt;/h2&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 1)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Derive the following
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) Fa&amp;#8756;(&amp;#8707;x)Fx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) Fb&amp;#8756;(&amp;#8707;x)Fx
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) Fa&amp;#8756;(&amp;#8707;y)Fy
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) Fa&amp;#8756;(&amp;#8707;x)Fa
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) Fa,Ga&amp;#8756;(&amp;#8707;x)(Fx&amp;#8743;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) Fa,Ga&amp;#8756;(&amp;#8707;x)(Fx&amp;#8743;Ga)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) Fa,Ga&amp;#8756;(&amp;#8707;x)(Fa&amp;#8743;Gx)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      h) Fa,Ga&amp;#8756;(&amp;#8707;x)(Fx)&amp;#8743;Ga
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

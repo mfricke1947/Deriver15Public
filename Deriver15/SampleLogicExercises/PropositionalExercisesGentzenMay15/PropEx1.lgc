@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercises to accompany Tutorial 1
+    &lt;/h2&gt;
+    &lt;p align=&quot;center&quot;&gt;
+      &lt;img src=&quot;Images/russell.gif&quot;&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercise 1 (of 3):
+    &lt;/h2&gt;
+    &lt;p&gt;
+      Are each of the premises of the following arguments true, or are they 
+      false? What is the truth value of the conclusions? Is each argument 
+      valid or is it invalid?
+    &lt;/p&gt;
+    &lt;p&gt;
+      Take note of the fact that many combinations are possible. For example, 
+      that an argument is valid does not mean that its premises are true (nor 
+      does the truth of an argument&apos;s premises mean that the argument is 
+      valid) ... One combination is impossible--which one is that?
+    &lt;/p&gt;
+    &lt;p&gt;
+      (You should be able to make your mind up about the truth or falsity; 
+      judging validity (in the technical logical sense) is more difficult, 
+      after all it is the aim of this course to teach you how to do this, and 
+      we are only on Tutorial 1; however, if you understand the definitions 
+      given in the Tutorial you should be able to make a reasonable attempt.)
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        &lt;tt&gt;a) &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;Phoenix is in Arizona, &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;San Franciso is in California.&lt;br&gt;Therefore 
+        &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Los Angeles is in California. &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;b) &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;Phoenix is in Arizona, &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;San Franciso is in California. &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Therefore 
+        &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Phoenix is in Arizona and San Franciso is in California.&lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;c) &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;Phoenix is in California, &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;San Franciso is in Arizona. &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Therefore 
+        &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Phoenix is in California and San Franciso is in Arizona.&lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;d) &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;Phoenix is in California and San Franciso is in California. &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Therefore 
+        &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;San Franciso is in California. &lt;/tt&gt;
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Answers to Exercise 1
+    &lt;/h2&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        &lt;tt&gt;a) &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;Phoenix is in Arizona, &lt;/tt&gt;(&lt;i&gt;True&lt;/i&gt;)&lt;br&gt;&lt;tt&gt;San Franciso is 
+        in California.&lt;/tt&gt; (&lt;i&gt;True&lt;/i&gt;)&lt;br&gt;&lt;tt&gt;Therefore &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Los 
+        Angeles is in California. &lt;/tt&gt;(&lt;i&gt;True&lt;/i&gt;)&lt;br&gt;(&lt;i&gt;Invalid&lt;/i&gt;)
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;b) &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;Phoenix is in Arizona, &lt;/tt&gt;(&lt;i&gt;True&lt;/i&gt;)&lt;br&gt;&lt;tt&gt;San Franciso is 
+        in California. &lt;/tt&gt;(&lt;i&gt;True&lt;/i&gt;)&lt;br&gt;&lt;tt&gt;Therefore &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Phoenix 
+        is in Arizona and San Franciso is in California. &lt;/tt&gt;(&lt;i&gt;True&lt;/i&gt; )&lt;br&gt;(&lt;i&gt;Valid 
+        argument&lt;/i&gt;)
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;c) &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;Phoenix is in California, &lt;/tt&gt;(&lt;i&gt;False&lt;/i&gt;)&lt;br&gt;&lt;tt&gt;San Franciso 
+        is in Arizona. &lt;/tt&gt;(&lt;i&gt;False&lt;/i&gt;)&lt;br&gt;&lt;tt&gt;Therefore &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;Phoenix 
+        is in California and San Franciso is in Arizona.&lt;/tt&gt;(&lt;i&gt;False&lt;/i&gt; )&lt;br&gt;(&lt;i&gt;Valid 
+        argument&lt;/i&gt;)
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;d) &lt;/tt&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;tt&gt;Phoenix is in California and San Franciso is in California. &lt;/tt&gt;(&lt;i&gt;False&lt;/i&gt;)&lt;br&gt;&lt;tt&gt;Therefore 
+        &lt;/tt&gt;&lt;br&gt;&lt;tt&gt;San Franciso is in California.&lt;/tt&gt;(&lt;i&gt;True&lt;/i&gt;)&lt;br&gt;(&lt;i&gt;Valid 
+        argument&lt;/i&gt;)
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      (&lt;i&gt;The impossible combination mentioned earlier is all the premises 
+      true and the conclusion false in a valid argument (for if all the 
+      premises are true and the conclusion false then it is possible for all 
+      the premises to be true and the conclusion false at one and the same 
+      time and that means that the argument is invalid).&lt;/i&gt;)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h2&gt;
+      Exercise 2 (of 3):
+    &lt;/h2&gt;
+    &lt;p&gt;
+      The program knows of three atomic propositions and has itself adopted 
+      the following conventions regarding them
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        The proposition &apos;We run a war&apos; is symbolized by &apos;W&apos;.&lt;br&gt;The 
+        proposition &apos;We reduce unemployment&apos; is symbolized by &apos;U&apos;.&lt;br&gt;The 
+        proposition &apos;We increase health costs&apos; is symbolized by &apos;H.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Form a view as to how the program will symbolize the following 
+      propositions, then ask it to do so by selecting the proposition and 
+      clicking &apos;To symbols&apos; (under the Semantics Menu). &lt;span&gt;&lt;font color=&quot;red&quot;&gt;Be 
+      sure that &apos;Propositional Level&apos; is checked on the Menu.&lt;/font&gt;&lt;/span&gt; 
+      When you have symbolized the propositions, ask the program to translate 
+      them back by selecting each symbol and clicking &apos;To English&apos; (also under 
+      the Semantics Menu).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Work on the copies (as the program will alter what you are working on).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Symbolize
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) We run a war.
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) We run a war.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) We reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) We reduce unemployment.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) We increase health costs.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) We increase health costs.
+      &lt;/p&gt;
+      &lt;p&gt;
+        &amp;#160;
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;h2&gt;
+      Exercise 3 (of 3):
+    &lt;/h2&gt;
+    &lt;p&gt;
+      In this exercise you must chose how you are going to symbolize the 
+      propositions. The program knows of the three propositions above, but 
+      that is all. Tell the program how you are going to do it by selecting
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;blockquote&gt;
+        &lt;p align=&quot;left&quot;&gt;
+          remember proposition (&amp;lt;english in here&amp;gt;) &amp;lt;capital in here&amp;gt;
+        &lt;/p&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      and clicking &apos;Do Command&apos; from the Action Menu. For example, the program 
+      does not know of the proposition &apos;Capital punishment deters killers&apos; 
+      (*if you want to check on this ask the program to symbolize a) below, 
+      you will find the program cannot do so.*), now select
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;blockquote&gt;
+        &lt;p align=&quot;left&quot;&gt;
+          remember proposition (Capital punishment deters killers) D
+        &lt;/p&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      and click Do Command-- the program learns the proposition (*if you want 
+      to check on this ask the program to symbolize a) below , you will find 
+      that the program symbolizes it.*).
+    &lt;/p&gt;
+    &lt;p&gt;
+      First tell of your conventions
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;blockquote&gt;
+        &lt;p align=&quot;left&quot;&gt;
+          remember proposition (Capital punishment is justified) &amp;lt;capital-here&amp;gt;
+        &lt;/p&gt;
+        &lt;p align=&quot;left&quot;&gt;
+          remember proposition (Capital punishment is inhuman) &amp;lt;capital-here&amp;gt;
+        &lt;/p&gt;
+        &lt;p align=&quot;left&quot;&gt;
+          remember proposition (Capital punishment is cheap) &amp;lt;capital-here&amp;gt;
+        &lt;/p&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      then symbolize, asking the machine to translate back and forward for you.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        a) Capital punishment deters killers.
+      &lt;/p&gt;
+      &lt;p&gt;
+        a) Capital punishment deters killers.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) Capital punishment is justified.
+      &lt;/p&gt;
+      &lt;p&gt;
+        b) Capital punishment is justified.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) Capital punishment is inhuman.
+      &lt;/p&gt;
+      &lt;p&gt;
+        c) Capital punishment is inhuman.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) Capital punishment is cheap.
+      &lt;/p&gt;
+      &lt;p&gt;
+        d) Capital punishment is cheap.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26"/>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>252</int>
+  </void>
+ </object>
+</java>

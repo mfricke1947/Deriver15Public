@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <int>3</int>
+ <string>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h2&gt;
+      Exercises to accompany Tutorial 8
+    &lt;/h2&gt;
+    &lt;p&gt;
+      5/5/15
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 1 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      There is a Rule for Absurdity Introduction-- in effect it is just And 
+      Introduction, but with the requirement that the conjuncts contradict 
+      each other. To use it you select a formula, and select the negation of 
+      that formula, and choose &lt;em&gt;Absurd&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Derive the following, either with or without Tactics. (Tactics will ask 
+      to you choose where the contradiction will come from; but it also gives 
+      you a hint as to the possibilities by listing all potential positive 
+      conjuncts.)&lt;br&gt;
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) F, &amp;#8764;F &amp;#8756; Absurd
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) F, F&amp;#8835;&amp;#8764;F &amp;#8756; Absurd
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) F,G,&amp;#8764;(F&amp;#8743;G) &amp;#8756; Absurd
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) F, &amp;#8764;(F&amp;#8835;F) &amp;#8756; Absurd
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 2 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Derive the following. First use Tactics. Start the derivation, switch on 
+      Tactics under the &lt;em&gt;Wizard&lt;/em&gt;, then click &amp;#8764;I to lay out the 
+      derivation properly. Then repeat the derivations without using Tactics.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) F &amp;#8756; &amp;#8764;(&amp;#8764;F)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) F &amp;#8756; &amp;#8764;(&amp;#8764;(&amp;#8764;(&amp;#8764;F))) (*Tactics give you a poor hint here*)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8764;F &amp;#8756; &amp;#8764;(F&amp;#8743;G)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) F&amp;#8743;&amp;#8764;G &amp;#8756; &amp;#8764;(F&amp;#8835;G)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) F&amp;#8743;&amp;#8764;G &amp;#8756; &amp;#8764;(F&amp;#8801;G)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      f) &amp;#8756;&amp;#8764;(F&amp;#8743;(&amp;#8764;F))
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      g) C&amp;#8743;(&amp;#8764;F), A&amp;#8743;((&amp;#8764;G)&amp;#8743;B) &amp;#8756; &amp;#8764;(F&amp;#8743;G)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 3 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      Derive the following. There is a circumstance in which Reductio is used 
+      where the initial target formula in not a negation-- the derivation 
+      proceeds by assuming a negation using Reductio to get a double negation, 
+      then using (double) Negation Elimination to get the desired formula. The 
+      first derivation that follows is an illustration of this.
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) F&amp;#8743;(&amp;#8764;F) &amp;#8756; G
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      b) &amp;#8764;(F&amp;#8743;G),F,G&amp;#8756;H
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8756; F&amp;#8744;&amp;#8764;F (*this is difficult, but important-- learn how to do it*)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      d) &amp;#8764;(F&amp;#8743;G)&amp;#8756;&amp;#8764;F&amp;#8744;&amp;#8764;G
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;h3&gt;
+      Exercise 4 (of 4)
+    &lt;/h3&gt;
+    &lt;p&gt;
+      There are a number of important theorems which can be expressed as 
+      equivalences-- here we consider slightly weakened versions of them which 
+      are conditionals.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Derive
+    &lt;/p&gt;
+    &lt;p&gt;
+      Double Negation
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      a) &amp;#8756; F&amp;#8835;&amp;#8764;&amp;#8764;F
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Transposition
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      b) &amp;#8756; (F&amp;#8835;G)&amp;#8835;(&amp;#8764;G&amp;#8835;&amp;#8764;F)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      c) &amp;#8756;(&amp;#8764;G&amp;#8835;&amp;#8764;F)&amp;#8835;(F&amp;#8835;G) (*The automatic theorem prover gives a very long 
+      winded proof of this due to missing the trick about using reductio to 
+      prove the double negation of what you want.*)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      De Morgan&apos;s Laws
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      d) &amp;#8756; &amp;#8764;(F&amp;#8743;G)&amp;#8835;(&amp;#8764;F&amp;#8744;&amp;#8764;G)
+    &lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      e) &amp;#8756; &amp;#8764;(F&amp;#8744;G)&amp;#8835;(&amp;#8764;F&amp;#8743;&amp;#8764;G)
+    &lt;/blockquote&gt;
+    &lt;p&gt;
+      Implication
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+      f) &amp;#8756; (F&amp;#8835;G)&amp;#8835;(&amp;#8764;F&amp;#8744;G)
+    &lt;/blockquote&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</string>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="us.softoption.interpretation.TInterpretationBoard">
+    <void property="semantics">
+     <object class="us.softoption.interpretation.TSemantics" id="TSemantics0">
+      <void class="us.softoption.interpretation.TSemantics" method="getField">
+       <string>b</string>
+       <void method="set">
+        <object idref="TSemantics0"/>
+        <array class="boolean" length="26">
+         <void index="0">
+          <boolean>true</boolean>
+         </void>
+         <void index="2">
+          <boolean>true</boolean>
+         </void>
+         <void index="3">
+          <boolean>true</boolean>
+         </void>
+        </array>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="us.softoption.proofs.bG"/>
+ <object class="us.softoption.tree.TTreeTableModel"/>
+ <object class="us.softoption.editor.TDocState">
+  <void property="HDivider">
+   <int>38</int>
+  </void>
+  <void property="VDivider">
+   <int>445</int>
+  </void>
+  <void property="propLevel">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>

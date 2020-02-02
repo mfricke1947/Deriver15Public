@@ -56,5 +56,4 @@ has as one of its source files
    GamesQuiz.java
 
 If you select that file and 'Run As Java Applet' Eclipse will do exactly 
-that for you (and similarly for the other
-applets).
+that for you (and similarly for the other applets).
